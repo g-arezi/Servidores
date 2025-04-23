@@ -1,0 +1,126 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1978999529,
+    "shortname": "salvaged.cleaver",
+    "displayName": {
+        "token": "salvaged.cleaver",
+        "english": "Salvaged Cleaver"
+    },
+    "displayDescription": {
+        "token": "salvaged.cleaver.desc",
+        "english": "A powerful 2-handed melee weapon with high damage."
+    },
+    "iconSprite": {
+        "instanceID": 169126
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 31534
+    },
+    "inventoryGrabSound": {
+        "instanceID": 31534
+    },
+    "inventoryDropSound": {
+        "instanceID": 129996
+    },
+    "physImpactSoundDef": {
+        "instanceID": 50832
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "9d3f264cec438b047bc328efc7993f48"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "f2479b00f43786e47a76a42acbe7836f"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344548
+            },
+            "amount": 1.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "workbenchLevelRequired": 1,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "9876bf5b9ac39514da82bd32fe86dd80"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 18.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "bullet"
+}
+

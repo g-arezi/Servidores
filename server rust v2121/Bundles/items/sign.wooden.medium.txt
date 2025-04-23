@@ -1,0 +1,107 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1819233322,
+    "shortname": "sign.wooden.medium",
+    "displayName": {
+        "token": "sign.wooden.medium",
+        "english": "Wooden Sign"
+    },
+    "displayDescription": {
+        "token": "sign.wooden.medium.desc",
+        "english": "A 2-meter by 1-meter wooden sign that you can write on."
+    },
+    "iconSprite": {
+        "instanceID": 49414
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 102632
+    },
+    "inventoryGrabSound": {
+        "instanceID": 102632
+    },
+    "inventoryDropSound": {
+        "instanceID": 192912
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 300.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 45.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "cac216a67f342304fbe6d3027b2af527"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+

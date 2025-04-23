@@ -1,0 +1,113 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1581210395,
+    "shortname": "planter.large",
+    "displayName": {
+        "token": "planter.large.name",
+        "english": "Large Planter Box"
+    },
+    "displayDescription": {
+        "token": "planter.large.desc",
+        "english": "A large planter with enough room to plant 9 seeds.\r\n\r\nSeeds placed in a planter grow faster as they would normally in the wild. When explosed to a light source they'll grow at a further additional rate.\r\n\r\nRegularly watering your plants in the planter with fresh water will significantly increase their yield.\r\n\r\nWhen a plant has reached maturity you can take clipping which copy the genetics of the plant to make clones."
+    },
+    "iconSprite": {
+        "instanceID": 126526
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": true,
+    "inventorySelectSound": {
+        "instanceID": 79304
+    },
+    "inventoryGrabSound": {
+        "instanceID": 79304
+    },
+    "inventoryDropSound": {
+        "instanceID": 56712
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "01784437724ea464a81585c9b8697d93"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344770
+            },
+            "amount": 2.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

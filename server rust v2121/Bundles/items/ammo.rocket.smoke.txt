@@ -1,0 +1,124 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -17123659,
+    "shortname": "ammo.rocket.smoke",
+    "displayName": {
+        "token": "ammo.rocket.smoke",
+        "english": "Smoke Rocket WIP!!!!"
+    },
+    "displayDescription": {
+        "token": "ammo.rocket.smoke.desc",
+        "english": "Emits thick, visibility blocking smoke upon impact."
+    },
+    "iconSprite": {
+        "instanceID": 65100
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 3,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 97532
+    },
+    "inventoryGrabSound": {
+        "instanceID": 97532
+    },
+    "inventoryDropSound": {
+        "instanceID": 41806
+    },
+    "physImpactSoundDef": {
+        "instanceID": 104402
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "021519925e5818343844164366fee76f"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "6811609b4b2810c449f17ddd8b55ed27"
+    },
+    "mods": [],
+    "ammoType": 32,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 100.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "rocket"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 80.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344546
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1343144
+            },
+            "amount": 25.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 10.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

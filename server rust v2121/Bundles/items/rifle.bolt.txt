@@ -1,0 +1,136 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1588298435,
+    "shortname": "rifle.bolt",
+    "displayName": {
+        "token": "rifle.bolt",
+        "english": "Bolt Action Rifle"
+    },
+    "displayDescription": {
+        "token": "rifle.bolt.desc",
+        "english": "A High powered, highly accurate, long range rifle."
+    },
+    "iconSprite": {
+        "instanceID": 46212
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 4,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 166502
+    },
+    "inventoryGrabSound": {
+        "instanceID": 166502
+    },
+    "inventoryDropSound": {
+        "instanceID": 181346
+    },
+    "physImpactSoundDef": {
+        "instanceID": 173414
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 0.009999999776482582,
+            "fractionMax": 0.05000000074505806
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "c7e4ff5e7a8e58c4e9c40008d11a6b6d"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "09a449257f5aa214697c2f0de66a5869"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344380
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341836
+            },
+            "amount": 3.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341834
+            },
+            "amount": 1.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 90.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModContainer
+{
+    "capacity": 3,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        2,
+        4,
+        8,
+        16
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

@@ -1,0 +1,32 @@
+{
+  "Text Display Frequency (Seconds)": 0.3,
+  "Enable Messages Cyclicity": false,
+  "Use Random Cyclicity (Instead of sequential)": false,
+  "Cycle Messages Every ~N Seconds": 3.0,
+  "Messages": [
+    {
+      "Top Status": "<color=red>ForestRust</color><color=orange> OFICIAL</color>",
+      "Bottom Status": "<color=lightgreen>Seja Bem Vindo Ao ForestRust</color>"
+    },
+    {
+      "Top Status": "<color=red>ForestRust</color><color=orange> OFICIAL</color>",
+      "Bottom Status": "<color=lightgreen>Seja Bem Vindo Ao ForestRust</color>"
+    }
+  ],
+  "Enable Queue Messages": false,
+  "Queue Messages": [
+    {
+      "Top Status": "<color=red>ForestRust</color><color=orange> OFICIAL</color>",
+      "Bottom Status": "<color=lightgreen>{AHEAD} Seja Bem Vindo Ao ForestRust</color>"
+    },
+    {
+      "Top Status": "<color=red>RUST DINASTY</color><color=orange> OFICIAL</color>",
+      "Bottom Status": "<color=lightgreen>{BEHIND} Seja Bem Vindo Ao ForestRust</color>"
+    }
+  ],
+  "QueuePosition": null,
+  "Last Message (When entering game)": {
+    "Top Status": "<color=red>RUST DINASTY</color><color=orange> OFICIAL</color>",
+    "Bottom Status": "<color=blue>Entrando no jogo</color>"
+  }
+}

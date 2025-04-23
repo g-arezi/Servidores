@@ -1,0 +1,78 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1982036270,
+    "shortname": "hq.metal.ore",
+    "displayName": {
+        "token": "hq.metal.ore",
+        "english": "High Quality Metal Ore"
+    },
+    "displayDescription": {
+        "token": "hq.metal.ore.desc",
+        "english": "A rock containing High Quality Metal. Can be smelted in a furnace."
+    },
+    "iconSprite": {
+        "instanceID": 59058
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 190960
+    },
+    "inventoryGrabSound": {
+        "instanceID": 190960
+    },
+    "inventoryDropSound": {
+        "instanceID": 71520
+    },
+    "physImpactSoundDef": {
+        "instanceID": 90486
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "79d1a8d01188cdb4ba6b326b04482ab9"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModCookable
+{
+    "becomeOnCooked": {
+        "instanceID": 1339836
+    },
+    "cookTime": 20.0,
+    "amountOfBecome": 1,
+    "lowTemp": 800,
+    "highTemp": 1200,
+    "setCookingFlag": false
+}
+

@@ -1,0 +1,107 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1100422738,
+    "shortname": "spinner.wheel",
+    "displayName": {
+        "token": "spinner.wheel",
+        "english": "Spinning wheel"
+    },
+    "displayDescription": {
+        "token": "spinner.wheel.desc",
+        "english": "An interactive spinning wheel."
+    },
+    "iconSprite": {
+        "instanceID": 164360
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 114892
+    },
+    "inventoryGrabSound": {
+        "instanceID": 114892
+    },
+    "inventoryDropSound": {
+        "instanceID": 12942
+    },
+    "physImpactSoundDef": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 150.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 10,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "c46133a9aa2b18a43b0d47ce0ba8dd56"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+

@@ -1,0 +1,107 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1824943010,
+    "shortname": "jackolantern.happy",
+    "displayName": {
+        "token": "jackolantern.happy",
+        "english": "Jack O Lantern Happy"
+    },
+    "displayDescription": {
+        "token": "jackolantern.happy.desc",
+        "english": "A Lantern. Place it where you need light."
+    },
+    "iconSprite": {
+        "instanceID": 116964
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 182358
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "df74ed501fa8a854fbaf037796404138"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "ab7bc9f30852a6d47b81d9457c2fb9f0"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 212692
+            },
+            "amount": 2.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": true,
+    "blueprintStackSize": -1,
+    "time": 20.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

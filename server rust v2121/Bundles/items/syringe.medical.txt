@@ -1,0 +1,142 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1079279582,
+    "shortname": "syringe.medical",
+    "displayName": {
+        "token": "syringe.medical",
+        "english": "Medical Syringe"
+    },
+    "displayDescription": {
+        "token": "syringe.medical.desc",
+        "english": "Heal yourself or others with this syringe. Left-click heals you, right-click heals a target."
+    },
+    "iconSprite": {
+        "instanceID": 118168
+    },
+    "category": 6,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 2,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "8f89ffb0e20ba5d48888836dbded0af8"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "7bdf2f4cb7738b54881e417a8a59d4c3"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 212708
+            },
+            "amount": 15.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1343144
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 100,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 20.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "conditionFractionToLose": 0.0,
+    "effects": [
+        {
+            "type": 3,
+            "amount": -5.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 4,
+            "amount": -10.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 6,
+            "amount": 15.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 7,
+            "amount": 20.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+

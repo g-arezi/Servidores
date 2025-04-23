@@ -1,0 +1,78 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1157596551,
+    "shortname": "sulfur.ore",
+    "displayName": {
+        "token": "sulfur.ore",
+        "english": "Sulfur Ore"
+    },
+    "displayDescription": {
+        "token": "sulfur.ore.desc",
+        "english": "A rock containing sulfur. The sulfur can be extracted using a furnace."
+    },
+    "iconSprite": {
+        "instanceID": 92458
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 190960
+    },
+    "inventoryGrabSound": {
+        "instanceID": 190960
+    },
+    "inventoryDropSound": {
+        "instanceID": 71520
+    },
+    "physImpactSoundDef": {
+        "instanceID": 90486
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "884c6a131dcfeea458c0a58606c5a122"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModCookable
+{
+    "becomeOnCooked": {
+        "instanceID": 213168
+    },
+    "cookTime": 5.0,
+    "amountOfBecome": 1,
+    "lowTemp": 800,
+    "highTemp": 1200,
+    "setCookingFlag": false
+}
+

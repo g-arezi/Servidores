@@ -1,0 +1,112 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -2097376851,
+    "shortname": "ammo.nailgun.nails",
+    "displayName": {
+        "token": "ammo.nailgun.nails",
+        "english": "Nailgun Nails"
+    },
+    "displayDescription": {
+        "token": "ammo.nailgun.nails.desc",
+        "english": "Standard nailgun ammunition"
+    },
+    "iconSprite": {
+        "instanceID": 159190
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 64,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 119536
+    },
+    "inventoryGrabSound": {
+        "instanceID": 119536
+    },
+    "inventoryDropSound": {
+        "instanceID": 81658
+    },
+    "physImpactSoundDef": {
+        "instanceID": 58636
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "d8c823436ceda0f42a4da54a972807bf"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "ffc3ae3b4f38fb6408e06fe1d3149000"
+    },
+    "mods": [],
+    "ammoType": 64,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 50.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "arrow"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 8.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 2.0,
+    "amountToCreate": 5,
+    "UnlockAchievment": "CRAFT_NAILGUN_NAILS"
+}
+

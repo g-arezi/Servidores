@@ -1,0 +1,16 @@
+{
+  "Inform On Attack (true/false)": true,
+  "Show Name Prefix (true/false)": true,
+  "Name Prefix (Default [God])": "[God]",
+  "Time Limit(Seconds, 0 to Disable)": 0.0,
+  "Chat Prefix (Default [Godmode]:)": "[Godmode]:",
+  "Chat Prefix color (Default #00FFFF)": "#00FFFF",
+  "God commands": [
+    "god",
+    "godmode"
+  ],
+  "Gods commands": [
+    "gods",
+    "godlist"
+  ]
+}

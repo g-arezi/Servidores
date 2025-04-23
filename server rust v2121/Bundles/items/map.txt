@@ -1,0 +1,103 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 696029452,
+    "shortname": "map",
+    "displayName": {
+        "token": "map",
+        "english": "Paper Map"
+    },
+    "displayDescription": {
+        "token": "map.desc",
+        "english": "Helps you figure out where you are. You can annotate the map by right-clicking and drawing on it.\r\n\r\nDrag the map into your belt bar to make it active. You will then be able to view the map by holding down the map button (G by default)."
+    },
+    "iconSprite": {
+        "instanceID": 10034
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": true,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 187288
+    },
+    "inventoryGrabSound": {
+        "instanceID": 187288
+    },
+    "inventoryDropSound": {
+        "instanceID": 114100
+    },
+    "physImpactSoundDef": {
+        "instanceID": 148834
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "f7fe5f484b0187845bdcb6dbc6d20cd2"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 100.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 5.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "45995aa168881a642a75d3b924f75dd1"
+    },
+    "defaultBone": ""
+}
+
+ItemModContainerRestriction
+{
+    "slotFlags": 1
+}
+

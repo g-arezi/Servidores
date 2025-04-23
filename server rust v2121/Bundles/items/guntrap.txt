@@ -1,0 +1,125 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 352499047,
+    "shortname": "guntrap",
+    "displayName": {
+        "token": "guntrap.name",
+        "english": "Shotgun Trap"
+    },
+    "displayDescription": {
+        "token": "guntrap.desc",
+        "english": "A shotgun trap triggered by movement, place near doorways and load with handmade shells."
+    },
+    "iconSprite": {
+        "instanceID": 72256
+    },
+    "category": 9,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 79304
+    },
+    "inventoryGrabSound": {
+        "instanceID": 79304
+    },
+    "inventoryDropSound": {
+        "instanceID": 56712
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "26dda9924ac7ce843adddf5e966a1ca9"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 500.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 250.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341832
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341840
+            },
+            "amount": 2.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "workbenchLevelRequired": 1,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

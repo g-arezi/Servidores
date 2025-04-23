@@ -1,0 +1,136 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -904863145,
+    "shortname": "rifle.semiauto",
+    "displayName": {
+        "token": "rifle.semiauto",
+        "english": "Semi-Automatic Rifle"
+    },
+    "displayDescription": {
+        "token": "rifle.semiauto.desc",
+        "english": "A Semi Automatic Rifle."
+    },
+    "iconSprite": {
+        "instanceID": 55646
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 166502
+    },
+    "inventoryGrabSound": {
+        "instanceID": 166502
+    },
+    "inventoryDropSound": {
+        "instanceID": 181346
+    },
+    "physImpactSoundDef": {
+        "instanceID": 173414
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 0.10000000149011612,
+            "fractionMax": 0.20000000298023225
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "2b145c7b4c1e63f4f8002a95f6fd1624"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "05f5e025a56ad244c9c36fa74bb1d8f2"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1344576
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341834
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 450.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 4.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModContainer
+{
+    "capacity": 3,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        2,
+        4,
+        8,
+        16
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

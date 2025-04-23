@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1882709339,
+    "shortname": "metalblade",
+    "displayName": {
+        "token": "metalblade.name",
+        "english": "Metal Blade"
+    },
+    "displayDescription": {
+        "token": "metalblade.desc",
+        "english": "A Metal Blade for making melee weapons."
+    },
+    "iconSprite": {
+        "instanceID": 151664
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 97532
+    },
+    "inventoryGrabSound": {
+        "instanceID": 97532
+    },
+    "inventoryDropSound": {
+        "instanceID": 41806
+    },
+    "physImpactSoundDef": {
+        "instanceID": 104402
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "0f660851e60d2424c80bd9c7afab9380"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 30.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 549814
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 10,
+    "scrapFromRecycle": 2,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

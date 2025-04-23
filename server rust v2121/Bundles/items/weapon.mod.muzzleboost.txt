@@ -1,0 +1,106 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1405508498,
+    "shortname": "weapon.mod.muzzleboost",
+    "displayName": {
+        "token": "weapon.mod.muzzleboost",
+        "english": "Muzzle Boost"
+    },
+    "displayDescription": {
+        "token": "weapon.mod.muzzleboost.desc",
+        "english": "Increases weapon fire rate by channeling gasses back into the weapon cycling it faster, at the cost of bullet velocity and accuracy."
+    },
+    "iconSprite": {
+        "instanceID": 30260
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 6,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 166502
+    },
+    "inventoryGrabSound": {
+        "instanceID": 166502
+    },
+    "inventoryDropSound": {
+        "instanceID": 181346
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "f54da176ccd37c24eb04c3b91569cc7b"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "52b0f5c38476f9b42a9364f8de5f111b"
+    },
+    "defaultBone": "barrel"
+}
+
+ItemModSound
+{
+    "effect": {
+        "guid": "2554f489f4c7a734e955353e709cb606"
+    },
+    "actionType": 0
+}
+

@@ -1,0 +1,7 @@
+{
+  "No Permission": "You don't have enough permissions (inventorycleaner.*).",
+  "Syntax": "Command Syntax:\nself - Clean your own inventory\nall - Clean all players' inventories\n(name or ID) - Clean specific player's inventory",
+  "Players Only": "This command is available only for players.",
+  "Cleaned": "This inventory was successfully cleaned.",
+  "Not Found": "This player was not found."
+}

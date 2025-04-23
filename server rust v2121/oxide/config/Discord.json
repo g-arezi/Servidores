@@ -1,0 +1,12 @@
+{
+  "Configurações": {
+    "Link do convite do discord": "https://discord.gg/Dz85AQ5",
+    "Mensagem automatica do plugin": "Utilize <color=blue>/discord</color> para obter nosso servidor de <color=blue>discord</color>",
+    "Tag no chat": "Rust da Babilonia"
+  },
+  "Opções": {
+    "Cor da tag do chat": "red",
+    "Tamanho da tag e das mensagens": 15,
+    "Tempo de envio da mensagem automatica do servidor": 120
+  }
+}

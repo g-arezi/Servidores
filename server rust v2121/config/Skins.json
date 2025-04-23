@@ -1,0 +1,9 @@
+{
+  "ChatCommand": "skin",
+  "PreventDefaultSkins": false,
+  "Workshop": {
+    "rifle.ak": [
+      "1259716979"
+    ]
+  }
+}

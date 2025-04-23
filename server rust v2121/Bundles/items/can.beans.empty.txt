@@ -1,0 +1,78 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1655979682,
+    "shortname": "can.beans.empty",
+    "displayName": {
+        "token": "can.beans.empty",
+        "english": "Empty Can Of Beans"
+    },
+    "displayDescription": {
+        "token": "can.beans.empty.desc",
+        "english": "An empty Can of Beans. Can be smelted into Metal Fragments."
+    },
+    "iconSprite": {
+        "instanceID": 78504
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 129830
+    },
+    "inventoryGrabSound": {
+        "instanceID": 129830
+    },
+    "inventoryDropSound": {
+        "instanceID": 121630
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModCookable
+{
+    "becomeOnCooked": {
+        "instanceID": 213080
+    },
+    "cookTime": 30.0,
+    "amountOfBecome": 15,
+    "lowTemp": 150,
+    "highTemp": 2000,
+    "setCookingFlag": true
+}
+

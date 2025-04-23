@@ -1,0 +1,128 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1965232394,
+    "shortname": "crossbow",
+    "displayName": {
+        "token": "crossbow",
+        "english": "Crossbow"
+    },
+    "displayDescription": {
+        "token": "crossbow.desc",
+        "english": "A very accurate ranged weapon."
+    },
+    "iconSprite": {
+        "instanceID": 9708
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 166502
+    },
+    "inventoryGrabSound": {
+        "instanceID": 166502
+    },
+    "inventoryDropSound": {
+        "instanceID": 181346
+    },
+    "physImpactSoundDef": {
+        "instanceID": 173414
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 0.20000000298023225,
+            "fractionMax": 0.5
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "6a57c695ac5678149a7fc5f319f47aa1"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "9750352db754a6044bbd7b0e206d24e1"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 75.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341840
+            },
+            "amount": 2.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "workbenchLevelRequired": 1,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModContainer
+{
+    "capacity": 2,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        8,
+        16
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

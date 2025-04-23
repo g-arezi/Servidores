@@ -1,0 +1,113 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1679267738,
+    "shortname": "wall.graveyard.fence",
+    "displayName": {
+        "token": "wall.graveyard.fence",
+        "english": "Graveyard Fence"
+    },
+    "displayDescription": {
+        "token": "wall.graveyard.fence.desc",
+        "english": "A Spooky Fence"
+    },
+    "iconSprite": {
+        "instanceID": 193282
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 190960
+    },
+    "inventoryGrabSound": {
+        "instanceID": 190960
+    },
+    "inventoryDropSound": {
+        "instanceID": 71520
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "fa5728da8b4aa1f4db8e02701c10980b"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213110
+            },
+            "amount": 250.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 75.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

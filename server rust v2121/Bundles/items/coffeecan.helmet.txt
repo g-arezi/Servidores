@@ -1,0 +1,126 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -803263829,
+    "shortname": "coffeecan.helmet",
+    "displayName": {
+        "token": "coffeecan.helmet",
+        "english": "Coffee Can Helmet"
+    },
+    "displayDescription": {
+        "token": "coffeecan.helmet.desc",
+        "english": "A Coffee Can Helmet. It provides a level of regional protection from inflicted damage."
+    },
+    "iconSprite": {
+        "instanceID": 186050
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 114982
+    },
+    "inventoryGrabSound": {
+        "instanceID": 114982
+    },
+    "inventoryDropSound": {
+        "instanceID": 162396
+    },
+    "physImpactSoundDef": {
+        "instanceID": 38526
+    },
+    "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "557de8ec4f1aa5348b24fe13e0b0ebeb"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "2f6f32fafdb0adc409d493c497c4d862"
+    },
+    "protectionProperties": {
+        "instanceID": 14138
+    },
+    "armorProperties": {
+        "instanceID": 111092
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 212708
+            },
+            "amount": 15.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 60.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344370
+            },
+            "amount": 1.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

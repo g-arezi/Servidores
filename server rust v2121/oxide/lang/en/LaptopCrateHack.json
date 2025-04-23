@@ -1,0 +1,5 @@
+{
+  "YouNeed": "Error: You need {0} Targeting Computers and you only have {1}.",
+  "NotHolding": "Error: You must be holding a Targeting Computer in your hand to hack this crate.",
+  "YouDontOwn": "Error: Only the player that hacked this crate can loot it."
+}

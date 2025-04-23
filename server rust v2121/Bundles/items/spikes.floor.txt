@@ -1,0 +1,107 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -92759291,
+    "shortname": "spikes.floor",
+    "displayName": {
+        "token": "spikes.floor",
+        "english": "Wooden Floor Spikes"
+    },
+    "displayDescription": {
+        "token": "spikes.floor.desc",
+        "english": "A set of spikes that will slow down and hurt anyone that walks over them."
+    },
+    "iconSprite": {
+        "instanceID": 131804
+    },
+    "category": 9,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": true,
+    "inventorySelectSound": {
+        "instanceID": 79304
+    },
+    "inventoryGrabSound": {
+        "instanceID": 79304
+    },
+    "inventoryDropSound": {
+        "instanceID": 56712
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "556dd33c88681504d8ad3d7f8d0ef611"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 300.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

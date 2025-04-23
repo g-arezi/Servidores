@@ -1,0 +1,66 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1553078977,
+    "shortname": "bleach",
+    "displayName": {
+        "token": "bleach.name",
+        "english": "Bleach"
+    },
+    "displayDescription": {
+        "token": "bleach.desc",
+        "english": "A powerful oxidizing agent. Can be used as a disinfectant."
+    },
+    "iconSprite": {
+        "instanceID": 141722
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "b9c0e6780a3e6f14f94f1aaf55ba24a1"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+

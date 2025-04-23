@@ -1,0 +1,112 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 442289265,
+    "shortname": "weapon.mod.holosight",
+    "displayName": {
+        "token": "weapon.mod.holosight",
+        "english": "Holosight"
+    },
+    "displayDescription": {
+        "token": "weapon.mod.holosight.desc",
+        "english": "Uses laser projection to create a holographic sight which is always pointing at the target regardless of view angle."
+    },
+    "iconSprite": {
+        "instanceID": 154740
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 8,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 166502
+    },
+    "inventoryGrabSound": {
+        "instanceID": 166502
+    },
+    "inventoryDropSound": {
+        "instanceID": 181346
+    },
+    "physImpactSoundDef": {
+        "instanceID": 124728
+    },
+    "condition": {
+        "enabled": false,
+        "max": 300.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "35d656a70ad593249abd523dbd8a19aa"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 12.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1347096
+            },
+            "amount": 1.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 120.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "0e34df87fae7e284db95d24f0708a1d4"
+    },
+    "defaultBone": "scope.attachment"
+}
+
+ItemModSound
+{
+    "effect": {
+        "guid": "2554f489f4c7a734e955353e709cb606"
+    },
+    "actionType": 0
+}
+

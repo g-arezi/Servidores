@@ -1,0 +1,113 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -2058362263,
+    "shortname": "smallcandles",
+    "displayName": {
+        "token": "smallcandles",
+        "english": "Small Candle Set"
+    },
+    "displayDescription": {
+        "token": "smallcandles.desc",
+        "english": "Small Candles"
+    },
+    "iconSprite": {
+        "instanceID": 63842
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 79304
+    },
+    "inventoryGrabSound": {
+        "instanceID": 79304
+    },
+    "inventoryDropSound": {
+        "instanceID": 56712
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": true,
+        "max": 60.0,
+        "repairable": true,
+        "maintainMaxCondition": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "19aa0ba0f4d117a4f88690bb6c41c2d8"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1345510
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 212708
+            },
+            "amount": 5.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

@@ -1,0 +1,83 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 882559853,
+    "shortname": "spiderweb",
+    "displayName": {
+        "token": "spiderweb.name",
+        "english": "Spider Webs"
+    },
+    "displayDescription": {
+        "token": "spiderweb.desc",
+        "english": "Giant Cobwebs which can be hung against both a ceiling and a wall."
+    },
+    "iconSprite": {
+        "instanceID": 183648
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 102632
+    },
+    "inventoryGrabSound": {
+        "instanceID": 102632
+    },
+    "inventoryDropSound": {
+        "instanceID": 192912
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 100.0,
+        "repairable": true,
+        "maintainMaxCondition": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "e07272d3dbc958149b218d8f24c2fb70"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

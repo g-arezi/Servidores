@@ -1,0 +1,78 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1622660759,
+    "shortname": "xmas.present.large",
+    "displayName": {
+        "token": "xmas.present.large.name",
+        "english": "Large Present"
+    },
+    "displayDescription": {
+        "token": "xmas.present.large.desc",
+        "english": "A Large Present, the best there is. Unwrap it now!"
+    },
+    "iconSprite": {
+        "instanceID": 120976
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "8c942234eb4edd64b8c5db24c7c6d587"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModUnwrap
+{
+    "revealList": {
+        "instanceID": 63992
+    },
+    "successEffect": {
+        "guid": "29286773a3f67a14889865e55e599365"
+    },
+    "minTries": 1,
+    "maxTries": 1
+}
+

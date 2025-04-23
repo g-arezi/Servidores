@@ -1,0 +1,134 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1973785141,
+    "shortname": "fogmachine",
+    "displayName": {
+        "token": "fogmachine",
+        "english": "Fogger-3000"
+    },
+    "displayDescription": {
+        "token": "fogmachine.desc",
+        "english": "A Fog machine which runs on low grade fuel. Can be set to fill an area with a dense fog or triggered by motion."
+    },
+    "iconSprite": {
+        "instanceID": 119242
+    },
+    "category": 10,
+    "selectionPanel": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 102632
+    },
+    "inventoryGrabSound": {
+        "instanceID": 102632
+    },
+    "inventoryDropSound": {
+        "instanceID": 192912
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "maintainMaxCondition": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 116734
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "efa5992e3af94f248a618682efc83e0e"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 100.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1343144
+            },
+            "amount": 30.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341836
+            },
+            "amount": 1.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": true,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 0,
+    "containerFlags": 0,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 1343144
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

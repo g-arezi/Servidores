@@ -1,0 +1,126 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -262590403,
+    "shortname": "axe.salvaged",
+    "displayName": {
+        "token": "axe.salvaged",
+        "english": "Salvaged Axe"
+    },
+    "displayDescription": {
+        "token": "axe.salvaged.desc",
+        "english": "A high-yield resource gathering axe. Slower than the Hatchet."
+    },
+    "iconSprite": {
+        "instanceID": 40340
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 96550
+    },
+    "inventoryGrabSound": {
+        "instanceID": 96550
+    },
+    "inventoryDropSound": {
+        "instanceID": 141280
+    },
+    "physImpactSoundDef": {
+        "instanceID": 50832
+    },
+    "condition": {
+        "enabled": true,
+        "max": 500.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "e6ddd0630ba71184c880db01214f872f"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "71216c2c986cad24f8c15e4b32b54de4"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1341836
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341838
+            },
+            "amount": 5.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 20.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "690c0f36279f4874bbf4947d4e40800b"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 18.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "bullet"
+}
+

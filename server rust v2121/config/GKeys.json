@@ -1,0 +1,24 @@
+﻿{
+  "Configurações": {
+    "Itens do comando keyi": {
+      "ammo.rifle": 150,
+      "bandage": 20,
+      "boots": 1,
+      "coffeecan.helmet": 1,
+      "hoodie": 1,
+      "pants": 1,
+      "rifle.lr300": 1,
+      "roadsign.jacket": 1,
+      "roadsign.kilt": 1,
+      "syringe.medical": 15
+    },
+    "Nome da permissão do plugin": "activevipkey.admin",
+    "Tag de mensagens do chat": "ForestRust"
+  },
+  "Opções": {
+    "Cor da tag de mensagens no chat": "#FF0000",
+    "Tamanho da tag de mensagens no chat": 15,
+    "Tamanho das mensagens no chat": 15,
+    "Tempo da mensagem automatica no chat": 60
+  }
+}

@@ -1,0 +1,120 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 963906841,
+    "shortname": "rock",
+    "displayName": {
+        "token": "rock",
+        "english": "Rock"
+    },
+    "displayDescription": {
+        "token": "rock.desc",
+        "english": "A Rock. The most basic melee weapon and gathering tool."
+    },
+    "iconSprite": {
+        "instanceID": 164694
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 190960
+    },
+    "inventoryGrabSound": {
+        "instanceID": 190960
+    },
+    "inventoryDropSound": {
+        "instanceID": 71520
+    },
+    "physImpactSoundDef": {
+        "instanceID": 90486
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "f93f12aa34a763a47a4961200c76df51"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "746cf6dfd00b08042a7991f4c4229a15"
+    },
+    "defaultBone": ""
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "8422248e6131639419c740e6af3d5879"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 18.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "bullet"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213110
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 5.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

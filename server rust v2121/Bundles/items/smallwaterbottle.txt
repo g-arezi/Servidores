@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1039528932,
+    "shortname": "smallwaterbottle",
+    "displayName": {
+        "token": "smallwaterbottle",
+        "english": "Small Water Bottle"
+    },
+    "displayDescription": {
+        "token": "smallwaterbottle.desc",
+        "english": "A Small Water Bottle. Left click to drink, right click to fill from water sources, or to pour out."
+    },
+    "iconSprite": {
+        "instanceID": 180300
+    },
+    "category": 7,
+    "selectionPanel": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 42230
+    },
+    "inventoryGrabSound": {
+        "instanceID": 42230
+    },
+    "inventoryDropSound": {
+        "instanceID": 153888
+    },
+    "physImpactSoundDef": {
+        "instanceID": 124728
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "ac4f1de3c3d4a964fb3e5272e2d3b229"
+    },
+    "Traits": 56,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 250,
+    "containerFlags": 8,
+    "onlyAllowedContents": 2,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": [
+        {
+            "itemDef": {
+                "instanceID": 1344554
+            },
+            "amount": 120.0
+        }
+    ]
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "3a1643a0e84856b419cd235c865d035c"
+    },
+    "defaultBone": ""
+}
+

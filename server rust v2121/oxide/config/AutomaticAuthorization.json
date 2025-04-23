@@ -1,0 +1,7 @@
+{
+  "Default automatic authorization": false,
+  "Chat command": "autoauth",
+  "Chat prefix": "[AutoAuth]:",
+  "Chat prefix color": "#00FFFF",
+  "Chat steamID icon": 0
+}

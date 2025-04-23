@@ -1,0 +1,131 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1549739227,
+    "shortname": "shoes.boots",
+    "displayName": {
+        "token": "shoes.boots",
+        "english": "Boots"
+    },
+    "displayDescription": {
+        "token": "shoes.boots.desc",
+        "english": "Work boots."
+    },
+    "iconSprite": {
+        "instanceID": 97790
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "4db66a82b3b464c448864a1b696409ee"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "fa21a6385c0df25488f86fb6fc09aa94"
+    },
+    "protectionProperties": {
+        "instanceID": 168082
+    },
+    "armorProperties": {
+        "instanceID": 145808
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1344458
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 15.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344370
+            },
+            "amount": 1.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemFootstepSounds
+{
+    "effectFolder": "boots"
+}
+

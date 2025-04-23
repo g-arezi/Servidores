@@ -1,0 +1,23 @@
+{
+  "Options": {
+    "Auto start": true,
+    "Auto start time": 30.0,
+    "Maximum attemps": 20,
+    "Maximum number": 150,
+    "Minimum number": 1,
+    "Minimum players to start": 1,
+    "Time to close": 3.0
+  },
+  "Prizes": {
+    "Prize event": {
+      "supply.signal": 1
+    }
+  },
+  "Settings": {
+    "Chat tag": "<size=15>ForestRust</size>",
+    "Minutes": "minutos",
+    "Permission name": "lucky.admin",
+    "Seconds": "segundos",
+    "Tag color": "#FF0000"
+  }
+}

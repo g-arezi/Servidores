@@ -1,0 +1,119 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -41896755,
+    "shortname": "workbench2",
+    "displayName": {
+        "token": "workbench2",
+        "english": "Work Bench Level 2"
+    },
+    "displayDescription": {
+        "token": "workbench2desc",
+        "english": "This allows you to craft items requiring workbench level 2"
+    },
+    "iconSprite": {
+        "instanceID": 165690
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 79304
+    },
+    "inventoryGrabSound": {
+        "instanceID": 79304
+    },
+    "inventoryDropSound": {
+        "instanceID": 56712
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "a34ab16094e985b40847101505eb1962"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 500.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 549814
+            },
+            "amount": 500.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 3,
+    "workbenchLevelRequired": 1,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

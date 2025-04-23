@@ -1,0 +1,120 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 418081930,
+    "shortname": "wood.armor.jacket",
+    "displayName": {
+        "token": "wood.armor.jacket",
+        "english": "Wood Chestplate"
+    },
+    "displayDescription": {
+        "token": "wood.armor.jacket.desc",
+        "english": "A shoddy piece of body armor made from Wood and rope."
+    },
+    "iconSprite": {
+        "instanceID": 120524
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 79304
+    },
+    "inventoryGrabSound": {
+        "instanceID": 79304
+    },
+    "inventoryDropSound": {
+        "instanceID": 56712
+    },
+    "physImpactSoundDef": {
+        "instanceID": 107626
+    },
+    "condition": {
+        "enabled": true,
+        "max": 75.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "a5b7e6581cdc74645a409c1588760f3b"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "fe5be5dbf21f1dc4fbeb5ed358d07616"
+    },
+    "protectionProperties": {
+        "instanceID": 168076
+    },
+    "armorProperties": {
+        "instanceID": 72150
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1341840
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 300.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

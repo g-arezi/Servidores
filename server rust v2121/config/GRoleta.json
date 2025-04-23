@@ -1,0 +1,29 @@
+﻿{
+  "Configurações": {
+    "Itens randomizados para ganhar no comando": {
+      "ammo.pistol": 150,
+      "ammo.rifle": 150,
+      "ammo.shotgun": 25,
+      "ammo.shotgun.slug": 25,
+      "pistol.m92": 1,
+      "pistol.python": 1,
+      "rifle.ak": 1,
+      "rifle.bolt": 1,
+      "rifle.lr300": 1,
+      "shotgun.double": 1,
+      "shotgun.pump": 1,
+      "shotgun.waterpipe": 1,
+      "smg.2": 1,
+      "smg.mp5": 1,
+      "smg.thompson": 1,
+      "syringe.medical": 15
+    },
+    "Tag de mensagens do chat": "ForestRust"
+  },
+  "Opções": {
+    "Cor da tag de mensagens no chat": "#FF0000",
+    "Sistema (true/false)": true,
+    "Tamanho da tag de mensagens no chat": 15,
+    "Tempo para usar o comando novamente (em dias)": 1
+  }
+}

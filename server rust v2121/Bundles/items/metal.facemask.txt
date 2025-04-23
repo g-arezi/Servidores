@@ -1,0 +1,126 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -194953424,
+    "shortname": "metal.facemask",
+    "displayName": {
+        "token": "metal.facemask",
+        "english": "Metal Facemask"
+    },
+    "displayDescription": {
+        "token": "metal.facemask.desc",
+        "english": "A protective facemask that deflects direct attacks."
+    },
+    "iconSprite": {
+        "instanceID": 37460
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 4,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 97532
+    },
+    "inventoryGrabSound": {
+        "instanceID": 97532
+    },
+    "inventoryDropSound": {
+        "instanceID": 41806
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": true,
+        "max": 320.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "93dc4b5ce6a92dd44b61183f2eab3f97"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "2b5f996ba5c9d62499f1841de54f3648"
+    },
+    "protectionProperties": {
+        "instanceID": 131548
+    },
+    "armorProperties": {
+        "instanceID": 111092
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1344458
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 15.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344370
+            },
+            "amount": 6.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

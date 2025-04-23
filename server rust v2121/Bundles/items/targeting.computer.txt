@@ -1,0 +1,102 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1523195708,
+    "shortname": "targeting.computer",
+    "displayName": {
+        "token": "targeting.computer",
+        "english": "Targeting Computer"
+    },
+    "displayDescription": {
+        "token": "targeting.computer.desc",
+        "english": "A computer loaded with software that can analyze a video and produce rotational deltas to individual objects contained in the feed."
+    },
+    "iconSprite": {
+        "instanceID": 177246
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 64,
+    "quickDespawn": false,
+    "rarity": 4,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 42230
+    },
+    "inventoryGrabSound": {
+        "instanceID": 42230
+    },
+    "inventoryDropSound": {
+        "instanceID": 153888
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "f32d4a072af1c7b4391a5e8aba04c1dc"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1347096
+            },
+            "amount": 5.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 100.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

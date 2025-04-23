@@ -1,0 +1,118 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1691396643,
+    "shortname": "ammo.pistol.hv",
+    "displayName": {
+        "token": "ammo.pistol.hv",
+        "english": "HV Pistol Ammo"
+    },
+    "displayDescription": {
+        "token": "ammo.pistol.hv.desc",
+        "english": "This ammunition travels faster, resulting in less drop and slightly higher damage when fired over long distances."
+    },
+    "iconSprite": {
+        "instanceID": 33824
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 128,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 119536
+    },
+    "inventoryGrabSound": {
+        "instanceID": 119536
+    },
+    "inventoryDropSound": {
+        "instanceID": 81658
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "f5b0ab5cb1c8c2b4f8a67fe21d4266b1"
+    },
+    "mods": [],
+    "ammoType": 1,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 400.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "bullet"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344546
+            },
+            "amount": 20.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 3.0,
+    "amountToCreate": 3,
+    "UnlockAchievment": ""
+}
+

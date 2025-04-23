@@ -1,0 +1,135 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1658229558,
+    "shortname": "lantern",
+    "displayName": {
+        "token": "lantern",
+        "english": "Lantern"
+    },
+    "displayDescription": {
+        "token": "lantern.desc",
+        "english": "A Lantern. Place it where you need light, requires low grade fuel to work."
+    },
+    "iconSprite": {
+        "instanceID": 130000
+    },
+    "category": 2,
+    "selectionPanel": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 114982
+    },
+    "inventoryGrabSound": {
+        "instanceID": 114982
+    },
+    "inventoryDropSound": {
+        "instanceID": 162396
+    },
+    "physImpactSoundDef": {
+        "instanceID": 38526
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "889ee3ee13357ca488fa05b3b2464132"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "3fdee0c6792f89642bd15bdff0e569fe"
+    },
+    "showCrosshair": false,
+    "UnlockAchievement": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 25.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1343144
+            },
+            "amount": 15.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 0,
+    "containerFlags": 0,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 1343144
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": [
+        {
+            "itemDef": {
+                "instanceID": 1343144
+            },
+            "amount": 5.0
+        }
+    ]
+}
+

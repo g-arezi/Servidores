@@ -1,0 +1,83 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -237809779,
+    "shortname": "seed.hemp",
+    "displayName": {
+        "token": "seed.hemp",
+        "english": "Hemp Seed"
+    },
+    "displayDescription": {
+        "token": "seed.hemp.desc",
+        "english": "Hemp seeds can be found when picking wild Hemp. These seeds can be planted in the ground and grown to collect additional cloth.\r\n\r\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more cloth and faster groth."
+    },
+    "iconSprite": {
+        "instanceID": 99686
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 50,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 82450
+    },
+    "inventoryGrabSound": {
+        "instanceID": 82450
+    },
+    "inventoryDropSound": {
+        "instanceID": 122756
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 24,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "c49c9bda8be4943d0b3fcfd676b0b0a7"
+    },
+    "showCrosshair": true,
+    "UnlockAchievement": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

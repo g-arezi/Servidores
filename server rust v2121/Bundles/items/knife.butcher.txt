@@ -1,0 +1,120 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -194509282,
+    "shortname": "knife.butcher",
+    "displayName": {
+        "token": "knife.butcher",
+        "english": "Butcher Knife"
+    },
+    "displayDescription": {
+        "token": "knife.butcher.desc",
+        "english": "A sharp butcher knife. Extremely good at harvesting flesh from both dead or alive bodies."
+    },
+    "iconSprite": {
+        "instanceID": 102872
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 31534
+    },
+    "inventoryGrabSound": {
+        "instanceID": 31534
+    },
+    "inventoryDropSound": {
+        "instanceID": 129996
+    },
+    "physImpactSoundDef": {
+        "instanceID": 46228
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "5840294d79ddacb4e8d93109dd53eb75"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "34a0e1028a8f94e4486707bf50da6277"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 50.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "e8c80707cc0bdbc458eea3d41ab4f01c"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 20.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "bullet"
+}
+

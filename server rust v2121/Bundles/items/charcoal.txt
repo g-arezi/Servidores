@@ -1,0 +1,66 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1938052175,
+    "shortname": "charcoal",
+    "displayName": {
+        "token": "charcoal",
+        "english": "Charcoal"
+    },
+    "displayDescription": {
+        "token": "charcoal.desc",
+        "english": "Byproduct from campfires and furnaces used for crafting gunpowder."
+    },
+    "iconSprite": {
+        "instanceID": 174120
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 44840
+    },
+    "inventoryGrabSound": {
+        "instanceID": 44840
+    },
+    "inventoryDropSound": {
+        "instanceID": 63430
+    },
+    "physImpactSoundDef": {
+        "instanceID": 67248
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "8be5ab5895b4fda4aa36cc93d3d8db5a"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+

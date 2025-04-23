@@ -1,0 +1,118 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1234735557,
+    "shortname": "arrow.wooden",
+    "displayName": {
+        "token": "arrow.wooden",
+        "english": "Wooden Arrow"
+    },
+    "displayDescription": {
+        "token": "arrow.wooden.desc",
+        "english": "An arrow for a Hunting Bow and Crossbow."
+    },
+    "iconSprite": {
+        "instanceID": 49072
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 64,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 50666
+    },
+    "inventoryGrabSound": {
+        "instanceID": 50666
+    },
+    "inventoryDropSound": {
+        "instanceID": 33494
+    },
+    "physImpactSoundDef": {
+        "instanceID": 99838
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "4412ed8a7fbd517438857c1ea63759c4"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "24e1b6e80481c444fb42a1a2de6aca42"
+    },
+    "mods": [],
+    "ammoType": 8,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 50.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "arrow"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 25.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213110
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 3.0,
+    "amountToCreate": 2,
+    "UnlockAchievment": "CRAFT_ARROWS"
+}
+

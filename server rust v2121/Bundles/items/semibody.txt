@@ -1,0 +1,102 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 573926264,
+    "shortname": "semibody",
+    "displayName": {
+        "token": "semibody.name",
+        "english": "Semi Automatic Body"
+    },
+    "displayDescription": {
+        "token": "semibody.desc",
+        "english": "The firing mechanism of a semi automatic weapon."
+    },
+    "iconSprite": {
+        "instanceID": 52466
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 166502
+    },
+    "inventoryGrabSound": {
+        "instanceID": 166502
+    },
+    "inventoryDropSound": {
+        "instanceID": 181346
+    },
+    "physImpactSoundDef": {
+        "instanceID": 173414
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "849a5cbe3e81ae0469c9c908cb5cb2c5"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 3.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 150.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 549814
+            },
+            "amount": 50.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 50,
+    "scrapFromRecycle": 15,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

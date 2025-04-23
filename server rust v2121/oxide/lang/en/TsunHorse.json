@@ -1,0 +1,15 @@
+{
+  "Help.Controls1": "<color=#ce422b>Animal Controls:\nForward</color> - Move Forward\n<color=#ce422b>Left/Right</color> - Turn\n<color=#ce422b>Sprint</color> - Sprint\n<color=#ce422b>Jump</color> - Dismount animal",
+  "Help.StoppedAnimals": "You have temporarily stopped <color=#ce422b>{0}</color> animal(s)!",
+  "Help.NoStoppedAnimals": "<color=#ce422b>There are no animals nearby...</color>",
+  "Help.Spawn": "<color=#ce422b>/spawnhorse <type></color> - Spawn a animal you can ride",
+  "Help.AvailableTypes": "Available types are; <color=#ce422b>{0}</color>",
+  "Msg.SpawnSuccess": "You have spawned a <color=#ce422b>{0}</color>! You can mount it by looking at it and pressing the <color=#ce422b>USE</color> key",
+  "Error.InvalidPosition": "<color=#ce422b>Unable to spawn a animal at this position</color>",
+  "Error.InvalidAnimal": "<color=#ce422b>Invalid animal type selected!</color>",
+  "Error.NoPermission": "<color=#ce422b>You do not have permission to use this command</color>",
+  "Error.Cooldown": "You have a cooldown of <color=#ce422b>{0}</color> remaining",
+  "Warning.InvalidType": "<color=#ce422b>That animal is not rideable</color>",
+  "Warning.NearDeath": "<color=#ce422b>That animal is nearing death...</color>",
+  "Warning.InUse": "<color=#ce422b>That animal already has someone riding it</color>"
+}

@@ -1,0 +1,22 @@
+{
+  "Settings": {
+    "Multipliers": {
+      "gears": 5,
+      "metalblade": 5,
+      "metalpipe": 5,
+      "metalspring": 5,
+      "propanetank": 5,
+      "riflebody": 5,
+      "roadsigns": 5,
+      "rope": 5,
+      "scrap": 5,
+      "semibody": 5,
+      "sewingkit": 5,
+      "sheetmetal": 5,
+      "smgbody": 5,
+      "tarp": 5,
+      "techparts": 5
+    },
+    "Replace items with blueprints": false
+  }
+}

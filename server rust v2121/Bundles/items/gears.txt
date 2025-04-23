@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 479143914,
+    "shortname": "gears",
+    "displayName": {
+        "token": "gears.name",
+        "english": "Gears"
+    },
+    "displayDescription": {
+        "token": "gears.desc",
+        "english": "A selection of gears. Some functional, some not."
+    },
+    "iconSprite": {
+        "instanceID": 183134
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 97532
+    },
+    "inventoryGrabSound": {
+        "instanceID": 97532
+    },
+    "inventoryDropSound": {
+        "instanceID": 41806
+    },
+    "physImpactSoundDef": {
+        "instanceID": 104402
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "2ba6504bbb05a004f9824bfd4137b9eb"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 25.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 549814
+            },
+            "amount": 100.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 100,
+    "scrapFromRecycle": 10,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

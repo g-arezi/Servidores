@@ -1,0 +1,12 @@
+{
+  "Configurações": {
+    "Link do convite do discord": "discord.gg/Y2wmSSc",
+    "Mensagem automatica do plugin": "Utilize <color=orange>/discord</color> para obter nosso servidor de <color=lightblue>discord</color>",
+    "Tag no chat": "RustDinasty"
+  },
+  "Opções": {
+    "Cor da tag do chat": "red",
+    "Tamanho da tag e das mensagens": 15,
+    "Tempo de envio da mensagem automatica do servidor": 120
+  }
+}

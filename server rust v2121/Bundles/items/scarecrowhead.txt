@@ -1,0 +1,114 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 809942731,
+    "shortname": "scarecrowhead",
+    "displayName": {
+        "token": "scarecrowhead.name",
+        "english": "Scarecrow Wrap"
+    },
+    "displayDescription": {
+        "token": "scarecrowhead.desc",
+        "english": "A creepy burlap scarecrow hat"
+    },
+    "iconSprite": {
+        "instanceID": 125938
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 66778
+    },
+    "inventoryGrabSound": {
+        "instanceID": 66778
+    },
+    "inventoryDropSound": {
+        "instanceID": 42826
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "f0de2fcf3628941428e2ffeb36612d41"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "99c5aca0b2c6b414ba1dda93aebc6b81"
+    },
+    "protectionProperties": {
+        "instanceID": 94598
+    },
+    "armorProperties": {
+        "instanceID": 111092
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 212708
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": "CRAFT_BURLAP_HEADWRAP"
+}
+

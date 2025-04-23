@@ -1,0 +1,149 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1321651331,
+    "shortname": "ammo.rifle.explosive",
+    "displayName": {
+        "token": "ammo.rifle.explosive",
+        "english": "Explosive 5.56 Rifle Ammo"
+    },
+    "displayDescription": {
+        "token": "ammo.rifle.explosive.desc",
+        "english": "This ammo explodes on contact dealing a small amount of fragmentation damage to nearby objects."
+    },
+    "iconSprite": {
+        "instanceID": 153502
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 128,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 119536
+    },
+    "inventoryGrabSound": {
+        "instanceID": 119536
+    },
+    "inventoryDropSound": {
+        "instanceID": 81658
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectileSpawn
+{
+    "projectileObject": {
+        "guid": "7d22d2b8f6e2a9641a9441325ac70be2"
+    },
+    "mods": [
+        {
+            "instanceID": 1803082
+        }
+    ],
+    "ammoType": 2,
+    "numProjectiles": 1,
+    "projectileSpread": 0.5,
+    "projectileVelocity": 225.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "bullet",
+    "createOnImpactChance": 0.05000000074505806,
+    "createOnImpact": {
+        "guid": "f7c5775fec7dfc04c873abe8fcb0c43d"
+    },
+    "spreadAngle": 0.0,
+    "spreadVelocityMin": 0.0,
+    "spreadVelocityMax": 0.0,
+    "numToCreateChances": 1
+}
+
+ItemModProjectileRadialDamage
+{
+    "radius": 1.5,
+    "damage": {
+        "type": 16,
+        "amount": 5.0
+    },
+    "effect": {
+        "guid": ""
+    },
+    "ignoreHitObject": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344546
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213168
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 3.0,
+    "amountToCreate": 2,
+    "UnlockAchievment": ""
+}
+

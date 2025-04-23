@@ -1,0 +1,133 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 989925924,
+    "shortname": "fish.raw",
+    "displayName": {
+        "token": "fish.raw",
+        "english": "Raw Fish"
+    },
+    "displayDescription": {
+        "token": "fish.raw.desc",
+        "english": "Raw Fish."
+    },
+    "iconSprite": {
+        "instanceID": 108144
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 74990
+    },
+    "inventoryGrabSound": {
+        "instanceID": 74990
+    },
+    "inventoryDropSound": {
+        "instanceID": 164700
+    },
+    "physImpactSoundDef": {
+        "instanceID": 69718
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 2,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 24,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "56a163f22f7764c499a621708c47a3be"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [],
+    "primaryConsumable": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "conditionFractionToLose": 0.0,
+    "effects": [
+        {
+            "type": 0,
+            "amount": 5.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": 1.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModCookable
+{
+    "becomeOnCooked": {
+        "instanceID": 2138234
+    },
+    "cookTime": 20.0,
+    "amountOfBecome": 1,
+    "lowTemp": 150,
+    "highTemp": 250,
+    "setCookingFlag": true
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 2138226
+    },
+    "option": {
+        "name": {
+            "token": "eat",
+            "english": "Eat"
+        },
+        "description": {
+            "token": "eat_desc",
+            "english": "Eat this item."
+        },
+        "icon": {
+            "instanceID": 68712
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+

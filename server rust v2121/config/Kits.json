@@ -1,0 +1,29 @@
+{
+  "NPC - GUI Kits": {
+    "0": {
+      "description": "Kits disponiveis",
+      "kits": [
+        "starter",
+        "resource",
+        "viplight",
+        "vipsuper",
+        "vipdinasty"
+      ]
+    }
+  },
+  "CopyPaste - Parameters": [
+    "deployables",
+    "true",
+    "inventories",
+    "true"
+  ],
+  "Custom AutoKits": {
+    "0": "KitName",
+    "1": "KitName",
+    "2": "KitName"
+  },
+  "UI KeyBinding": "",
+  "Kit - Logging": false,
+  "Show All Kits": false,
+  "Background - URL": ""
+}

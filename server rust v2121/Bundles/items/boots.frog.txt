@@ -1,0 +1,114 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1000573653,
+    "shortname": "boots.frog",
+    "displayName": {
+        "token": "boots.frog",
+        "english": "Frog Boots"
+    },
+    "displayDescription": {
+        "token": "boots.frog.desc",
+        "english": "Thank you for playing the game through its early access run. Enjoy these boots made from radiation resistant frog rubber."
+    },
+    "iconSprite": {
+        "instanceID": 164024
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 185904
+    },
+    "inventoryGrabSound": {
+        "instanceID": 185904
+    },
+    "inventoryDropSound": {
+        "instanceID": 27124
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 191702
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "86e79823d4a2ec4449b0b31655916aa9"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "929e5ccb81dcab540b6d76e6624f7e24"
+    },
+    "protectionProperties": {
+        "instanceID": 156110
+    },
+    "armorProperties": {
+        "instanceID": 145808
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1344770
+            },
+            "amount": 1.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": true,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

@@ -1,0 +1,1045 @@
+{
+  "Options": {
+    "UnlimitedComponents": false,
+    "BlockedItems": null,
+    "ItemDatas": [
+      {
+        "ShortName": "rifle.ak",
+        "EnglishName": "Assault Rifle",
+        "UnlockLevel": 33,
+        "CostXP": 24,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.pistol",
+        "EnglishName": "Pistol Bullet",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.pistol.fire",
+        "EnglishName": "Incendiary Pistol Bullet",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.pistol.hv",
+        "EnglishName": "HV Pistol Ammo",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.rifle",
+        "EnglishName": "5.56 Rifle Ammo",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.rifle.explosive",
+        "EnglishName": "Explosive 5.56 Rifle Ammo",
+        "UnlockLevel": 29,
+        "CostXP": 21,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.rifle.incendiary",
+        "EnglishName": "Incendiary 5.56 Rifle Ammo",
+        "UnlockLevel": 29,
+        "CostXP": 21,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.rifle.hv",
+        "EnglishName": "HV 5.56 Rifle Ammo",
+        "UnlockLevel": 29,
+        "CostXP": 21,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.rocket.basic",
+        "EnglishName": "Rocket",
+        "UnlockLevel": 29,
+        "CostXP": 21,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.rocket.fire",
+        "EnglishName": "Incendiary Rocket",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.rocket.hv",
+        "EnglishName": "High Velocity Rocket",
+        "UnlockLevel": 29,
+        "CostXP": 21,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.shotgun",
+        "EnglishName": "12 Gauge Buckshot",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.shotgun.fire",
+        "EnglishName": "12 Gauge Incendiary Shell",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ammo.shotgun.slug",
+        "EnglishName": "12 Gauge Slug",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "arrow.fire",
+        "EnglishName": "Fire Arrow",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "autoturret",
+        "EnglishName": "Auto Turret",
+        "UnlockLevel": 19,
+        "CostXP": 14,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "axe.salvaged",
+        "EnglishName": "Salvaged Axe",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "barricade.concrete",
+        "EnglishName": "Concrete Barricade",
+        "UnlockLevel": 14,
+        "CostXP": 10,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "barricade.metal",
+        "EnglishName": "Metal Barricade",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "barricade.sandbags",
+        "EnglishName": "Sandbag Barricade",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "barricade.stone",
+        "EnglishName": "Stone Barricade",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "barricade.wood",
+        "EnglishName": "Wooden Barricade",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "barricade.woodwire",
+        "EnglishName": "Barbed Wooden Barricade",
+        "UnlockLevel": 9,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "trap.bear",
+        "EnglishName": "Snap Trap",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "bed",
+        "EnglishName": "Bed",
+        "UnlockLevel": 9,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "tool.binoculars",
+        "EnglishName": "Binoculars",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "rifle.bolt",
+        "EnglishName": "Bolt Action Rifle",
+        "UnlockLevel": 33,
+        "CostXP": 24,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "bucket.water",
+        "EnglishName": "Water Bucket",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ceilinglight",
+        "EnglishName": "Ceiling Light",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "chainsaw",
+        "EnglishName": "Chainsaw",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "chair",
+        "EnglishName": "Chair",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "door.double.hinged.toptier",
+        "EnglishName": "Armored Double Door",
+        "UnlockLevel": 29,
+        "CostXP": 21,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "door.hinged.toptier",
+        "EnglishName": "Armored Door",
+        "UnlockLevel": 29,
+        "CostXP": 21,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "dropbox",
+        "EnglishName": "Drop Box",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "explosive.satchel",
+        "EnglishName": "Satchel Charge",
+        "UnlockLevel": 10,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "explosive.timed",
+        "EnglishName": "Timed Explosive Charge",
+        "UnlockLevel": 32,
+        "CostXP": 23,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "explosives",
+        "EnglishName": "Explosives",
+        "UnlockLevel": 26,
+        "CostXP": 19,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "fireplace.stone",
+        "EnglishName": "Stone Fireplace",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "flamethrower",
+        "EnglishName": "Flame Thrower",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "flameturret",
+        "EnglishName": "Flame Turret",
+        "UnlockLevel": 11,
+        "CostXP": 8,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "flare",
+        "EnglishName": "Flare",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "weapon.mod.flashlight",
+        "EnglishName": "Weapon flashlight",
+        "UnlockLevel": 11,
+        "CostXP": 8,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "floor.grill",
+        "EnglishName": "Floor grill",
+        "UnlockLevel": 6,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "floor.ladder.hatch",
+        "EnglishName": "Ladder Hatch",
+        "UnlockLevel": 13,
+        "CostXP": 10,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "fridge",
+        "EnglishName": "Fridge",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "furnace.large",
+        "EnglishName": "Large Furnace",
+        "UnlockLevel": 14,
+        "CostXP": 10,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "gates.external.high.stone",
+        "EnglishName": "High External Stone Gate",
+        "UnlockLevel": 32,
+        "CostXP": 23,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "gates.external.high.wood",
+        "EnglishName": "High External Wooden Gate",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "leather.gloves",
+        "EnglishName": "Leather Gloves",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "roadsign.gloves",
+        "EnglishName": "Roadsign Gloves",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "grenade.beancan",
+        "EnglishName": "Beancan Grenade",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "grenade.f1",
+        "EnglishName": "F1 Grenade",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "fun.guitar",
+        "EnglishName": "Acoustic Guitar",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "hammer.salvaged",
+        "EnglishName": "Salvaged Hammer",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "hat.beenie",
+        "EnglishName": "Beenie Hat",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "bucket.helmet",
+        "EnglishName": "Bucket Helmet",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "coffeecan.helmet",
+        "EnglishName": "Coffee Can Helmet",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "heavy.plate.helmet",
+        "EnglishName": "Heavy Plate Helmet",
+        "UnlockLevel": 12,
+        "CostXP": 9,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "hat.miner",
+        "EnglishName": "Miners Hat",
+        "UnlockLevel": 9,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "riot.helmet",
+        "EnglishName": "Riot Helmet",
+        "UnlockLevel": 10,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "hatchet",
+        "EnglishName": "Hatchet",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "hazmatsuit",
+        "EnglishName": "Hazmat Suit",
+        "UnlockLevel": 13,
+        "CostXP": 10,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "weapon.mod.holosight",
+        "EnglishName": "Holosight",
+        "UnlockLevel": 32,
+        "CostXP": 23,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "hoodie",
+        "EnglishName": "Hoodie",
+        "UnlockLevel": 14,
+        "CostXP": 10,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "icepick.salvaged",
+        "EnglishName": "Salvaged Icepick",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "heavy.plate.jacket",
+        "EnglishName": "Heavy Plate Jacket",
+        "UnlockLevel": 12,
+        "CostXP": 9,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "jacket.snow",
+        "EnglishName": "Snow Jacket",
+        "UnlockLevel": 10,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "jacket",
+        "EnglishName": "Jacket",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "ladder.wooden.wall",
+        "EnglishName": "Wooden Ladder",
+        "UnlockLevel": 12,
+        "CostXP": 9,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "trap.landmine",
+        "EnglishName": "Land Mine",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "largemedkit",
+        "EnglishName": "Large Medkit",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "weapon.mod.lasersight",
+        "EnglishName": "Weapon Lasersight",
+        "UnlockLevel": 32,
+        "CostXP": 23,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "locker",
+        "EnglishName": "Locker",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "longsword",
+        "EnglishName": "Longsword",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "mace",
+        "EnglishName": "Mace",
+        "UnlockLevel": 10,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "mailbox",
+        "EnglishName": "Mail Box",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "mask.balaclava",
+        "EnglishName": "Improvised Balaclava",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "metal.facemask",
+        "EnglishName": "Metal Facemask",
+        "UnlockLevel": 32,
+        "CostXP": 23,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "metal.plate.torso",
+        "EnglishName": "Metal Chest Plate",
+        "UnlockLevel": 32,
+        "CostXP": 23,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "smg.mp5",
+        "EnglishName": "MP5A4",
+        "UnlockLevel": 21,
+        "CostXP": 15,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "weapon.mod.muzzleboost",
+        "EnglishName": "Muzzle Boost",
+        "UnlockLevel": 18,
+        "CostXP": 13,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "weapon.mod.muzzlebrake",
+        "EnglishName": "Muzzle Brake",
+        "UnlockLevel": 18,
+        "CostXP": 13,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "pants",
+        "EnglishName": "Pants",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "heavy.plate.pants",
+        "EnglishName": "Heavy Plate Pants",
+        "UnlockLevel": 12,
+        "CostXP": 9,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "roadsign.kilt",
+        "EnglishName": "Road Sign Kilt",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "pants.shorts",
+        "EnglishName": "Shorts",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "pickaxe",
+        "EnglishName": "Pickaxe",
+        "UnlockLevel": 10,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "pistol.revolver",
+        "EnglishName": "Revolver",
+        "UnlockLevel": 9,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "pistol.semiauto",
+        "EnglishName": "Semi-Automatic Pistol",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "planter.large",
+        "EnglishName": "Large Planter Box",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "planter.small",
+        "EnglishName": "Small Planter Box",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "pistol.python",
+        "EnglishName": "Python Revolver",
+        "UnlockLevel": 13,
+        "CostXP": 10,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "target.reactive",
+        "EnglishName": "Reactive Target",
+        "UnlockLevel": 9,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "roadsign.jacket",
+        "EnglishName": "Road Sign Jacket",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "rocket.launcher",
+        "EnglishName": "Rocket Launcher",
+        "UnlockLevel": 32,
+        "CostXP": 23,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "rug.bear",
+        "EnglishName": "Rug Bear Skin",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "rug",
+        "EnglishName": "Rug",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "salvaged.cleaver",
+        "EnglishName": "Salvaged Cleaver",
+        "UnlockLevel": 10,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "salvaged.sword",
+        "EnglishName": "Salvaged Sword",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "weapon.mod.small.scope",
+        "EnglishName": "4x Zoom Scope",
+        "UnlockLevel": 32,
+        "CostXP": 23,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "searchlight",
+        "EnglishName": "Search Light",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "rifle.semiauto",
+        "EnglishName": "Semi-Automatic Rifle",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shelves",
+        "EnglishName": "Salvaged Shelves",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shirt.collared",
+        "EnglishName": "Shirt",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shirt.tanktop",
+        "EnglishName": "Tank Top",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shoes.boots",
+        "EnglishName": "Boots",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shotgun.double",
+        "EnglishName": "Double Barrel Shotgun",
+        "UnlockLevel": 10,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shotgun.pump",
+        "EnglishName": "Pump Shotgun",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shotgun.waterpipe",
+        "EnglishName": "Waterpipe Shotgun",
+        "UnlockLevel": 10,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "guntrap",
+        "EnglishName": "Shotgun Trap",
+        "UnlockLevel": 10,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shutter.metal.embrasure.a",
+        "EnglishName": "Metal horizontal embrasure",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shutter.metal.embrasure.b",
+        "EnglishName": "Metal Vertical embrasure",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "shutter.wood.a",
+        "EnglishName": "Wood Shutters",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "sign.wooden.huge",
+        "EnglishName": "Huge Wooden Sign",
+        "UnlockLevel": 3,
+        "CostXP": 3,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "sign.wooden.large",
+        "EnglishName": "Large Wooden Sign",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "weapon.mod.silencer",
+        "EnglishName": "Silencer",
+        "UnlockLevel": 11,
+        "CostXP": 8,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "weapon.mod.simplesight",
+        "EnglishName": "Simple Handmade Sight",
+        "UnlockLevel": 6,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "small.oil.refinery",
+        "EnglishName": "Small Oil Refinery",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "smg.2",
+        "EnglishName": "Custom SMG",
+        "UnlockLevel": 19,
+        "CostXP": 14,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "spikes.floor",
+        "EnglishName": "Wooden Floor Spikes",
+        "UnlockLevel": 1,
+        "CostXP": 1,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "spinner.wheel",
+        "EnglishName": "Spinning wheel",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "surveycharge",
+        "EnglishName": "Survey Charge",
+        "UnlockLevel": 16,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "syringe.medical",
+        "EnglishName": "Medical Syringe",
+        "UnlockLevel": 14,
+        "CostXP": 10,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "table",
+        "EnglishName": "Table",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "smg.thompson",
+        "EnglishName": "Thompson",
+        "UnlockLevel": 17,
+        "CostXP": 12,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "tshirt",
+        "EnglishName": "T-Shirt",
+        "UnlockLevel": 6,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "tshirt.long",
+        "EnglishName": "Longsleeve T-Shirt",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "tunalight",
+        "EnglishName": "Tuna Can Lamp",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.external.high.stone",
+        "EnglishName": "High External Stone Wall",
+        "UnlockLevel": 18,
+        "CostXP": 13,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.external.high",
+        "EnglishName": "High External Wooden Wall",
+        "UnlockLevel": 8,
+        "CostXP": 6,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.frame.cell.gate",
+        "EnglishName": "Prison Cell Gate",
+        "UnlockLevel": 14,
+        "CostXP": 10,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.frame.cell",
+        "EnglishName": "Prison Cell Wall",
+        "UnlockLevel": 14,
+        "CostXP": 10,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.frame.fence.gate",
+        "EnglishName": "Chainlink Fence Gate",
+        "UnlockLevel": 6,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.frame.fence",
+        "EnglishName": "Chainlink Fence",
+        "UnlockLevel": 6,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.frame.garagedoor",
+        "EnglishName": "Garage Door",
+        "UnlockLevel": 6,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.window.bars.metal",
+        "EnglishName": "Metal Window Bars",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.window.bars.toptier",
+        "EnglishName": "Reinforced Window Bars",
+        "UnlockLevel": 25,
+        "CostXP": 18,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "wall.window.glass.reinforced",
+        "EnglishName": "Reinforced Glass Window",
+        "UnlockLevel": 7,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "watchtower.wood",
+        "EnglishName": "Watch Tower",
+        "UnlockLevel": 6,
+        "CostXP": 5,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "water.catcher.large",
+        "EnglishName": "Large Water Catcher",
+        "UnlockLevel": 15,
+        "CostXP": 11,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "water.catcher.small",
+        "EnglishName": "Small Water Catcher",
+        "UnlockLevel": 9,
+        "CostXP": 7,
+        "UnlockOnLevel": false
+      },
+      {
+        "ShortName": "water.barrel",
+        "EnglishName": "Water Barrel",
+        "UnlockLevel": 2,
+        "CostXP": 2,
+        "UnlockOnLevel": false
+      }
+    ],
+    "LevelUpPrefab": "assets/prefabs/misc/xmas/presents/effects/unwrap.prefab",
+    "LearnPrefab": "assets/prefabs/misc/xmas/presents/effects/unwrap.prefab",
+    "LevelPivot": 7.0,
+    "LevelXpRatio": 2.666,
+    "XpFromGivenTool": 0.05,
+    "LootRemoveScrap": true,
+    "RemoveIngredients": false,
+    "UnlockAllOnLevel": false
+  },
+  "Display": {
+    "LevelIcon": "https://i.imgur.com/lXpowuB.png",
+    "XpIcon": "https://i.imgur.com/RoKRyG7.png",
+    "OffsetX": 0.0,
+    "OffsetY": 0.0,
+    "TextColourLearned": "#27ae60",
+    "TextColourNotLearned": "#e74c3c",
+    "TextColourAutomatic": "#aa42f4",
+    "HudColourLevel": "#CD7C41",
+    "HudColourXp": "#95BB42",
+    "HudEnabled": true
+  },
+  "LevelRates": {
+    "RepeatDelay": 120.0,
+    "Repeat": 0.054,
+    "PlayerKilled": 0.072,
+    "PlayerRecovered": 0.087,
+    "PlayerHelped": 0.1,
+    "ItemCrafted": 0.081,
+    "Recycling": 0.082,
+    "Looting": 0.072,
+    "KilledHeli": 0.92,
+    "KilledAnimal": 0.082,
+    "BrokeBarrel": 0.063,
+    "ItemPickup": 0.045,
+    "HitTree": 0.017,
+    "HitOre": 0.02,
+    "HitFlesh": 0.009,
+    "SupplyThrown": 0.09,
+    "StructureUpgraded": 0.02
+  },
+  "NoobKill": {
+    "MaxNoobLevel": 4,
+    "XpPunishment": -0.2
+  }
+}

@@ -1,0 +1,132 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1602646136,
+    "shortname": "spear.stone",
+    "displayName": {
+        "token": "spear.stone",
+        "english": "Stone Spear"
+    },
+    "displayDescription": {
+        "token": "spear.stone.desc",
+        "english": "A stone-tipped wooden Spear. Slightly longer range."
+    },
+    "iconSprite": {
+        "instanceID": 93070
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 31534
+    },
+    "inventoryGrabSound": {
+        "instanceID": 31534
+    },
+    "inventoryDropSound": {
+        "instanceID": 129996
+    },
+    "physImpactSoundDef": {
+        "instanceID": 107626
+    },
+    "condition": {
+        "enabled": true,
+        "max": 80.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "7f3faec3258db2b4d9f9010632ded783"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "c8674ca3630acad41b6060688a9af903"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1802508
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213110
+            },
+            "amount": 100.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 212708
+            },
+            "amount": 5.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 45.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "506e225440b88e744ab7467a298baf7a"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 30.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "bullet"
+}
+

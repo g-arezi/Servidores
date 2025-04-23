@@ -1,0 +1,120 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1108136649,
+    "shortname": "tactical.gloves",
+    "displayName": {
+        "token": "tactical.gloves",
+        "english": "Tactical Gloves"
+    },
+    "displayDescription": {
+        "token": "tactical.gloves.desc",
+        "english": "Military issue tactical gloves provide protection as well as weapon stabilization leading to higher accuracy when used."
+    },
+    "iconSprite": {
+        "instanceID": 155442
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 66778
+    },
+    "inventoryGrabSound": {
+        "instanceID": 66778
+    },
+    "inventoryDropSound": {
+        "instanceID": 42826
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "fa71e07ed3eb48045900604b99581d30"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "c10e94ea9e2effd41a2db69c11cd4795"
+    },
+    "protectionProperties": {
+        "instanceID": 159488
+    },
+    "armorProperties": {
+        "instanceID": 72150
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 1.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": "a8d7d781e1921084784d7ea42b58912d"
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1344458
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344370
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

@@ -1,0 +1,110 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -277057363,
+    "shortname": "water.salt",
+    "displayName": {
+        "token": "water.salt",
+        "english": "Salt Water"
+    },
+    "displayDescription": {
+        "token": "water.salt.desc",
+        "english": "Water with a high salt content. Consuming will damage your health."
+    },
+    "iconSprite": {
+        "instanceID": 115868
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 100,
+    "itemType": 2,
+    "amountType": 1,
+    "occupySlots": 0,
+    "stackable": 2147483647,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 50240
+    },
+    "inventoryGrabSound": {
+        "instanceID": 50240
+    },
+    "inventoryDropSound": {
+        "instanceID": 133874
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 1,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 40,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 50,
+    "conditionFractionToLose": 0.0,
+    "effects": [
+        {
+            "type": 0,
+            "amount": -15.0,
+            "time": 4.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": -20.0,
+            "time": 5.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 3,
+            "amount": 5.0,
+            "time": 3.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 6,
+            "amount": -2.0,
+            "time": 2.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "3c20bc0951893fe4aa3442f43a2764e7"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [],
+    "primaryConsumable": {
+        "instanceID": 0
+    }
+}
+

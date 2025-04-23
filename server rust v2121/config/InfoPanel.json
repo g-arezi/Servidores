@@ -1,0 +1,502 @@
+﻿{
+  "CompassDirections": {
+    "e": "East",
+    "n": "North",
+    "ne": "Northeast",
+    "nw": "Northwest",
+    "s": "South",
+    "se": "Southeast",
+    "sw": "Southwest",
+    "w": "West"
+  },
+  "Docks": {
+    "BottomLeftDock": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.005 0.162 0.005 0.005",
+      "Width": 0.18
+    },
+    "BottomLeftDoc2k": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.005 0.449 0.110 0.005",
+      "Width": 0.18
+    },
+    "BottomRightDock": {
+      "AnchorX": "Right",
+      "AnchorY": "Bottom",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.005 0.005 0.005 0.165",
+      "Width": 0.19
+    },
+    "TopLeftDock": {
+      "AnchorX": "Left",
+      "AnchorY": "Top",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.947 0.012 0.005 0.175",
+      "Width": 0.130
+    },
+    "TopLeftDock2": {
+      "AnchorX": "Left",
+      "AnchorY": "Top",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.910 0.012 0.005 0.200",
+      "Width": 0.130
+    },
+    "TopRightDock": {
+      "AnchorX": "Right",
+      "AnchorY": "Top",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.005 0.000 0.005 0.005",
+      "Width": 0.39
+    },
+    "BottomRight": {
+      "AnchorX": "Right",
+      "AnchorY": "Bottom",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.005 0.0 0.015 0.175",
+      "Width": 0.39
+    },
+    "MiddleDock": {
+      "AnchorX": "Right",
+      "AnchorY": "Top",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.100 0.005 0.005 0.470",
+      "Width": 0.39
+    },
+    "MiddleDock2": {
+      "AnchorX": "Right",
+      "AnchorY": "Top",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.070 0.005 0.005 0.420",
+      "Width": 0.39
+    },
+    "MiddleDock3": {
+      "AnchorX": "Right",
+      "AnchorY": "Top",
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Height": 0.03,
+      "Margin": "0.040 0.005 0.005 0.226",
+      "Width": 0.39
+    }
+  },
+  "Messages": [
+    "DIGITE <Color=orange>/DISCORD</color> PARA VER O <color=lightblue>DISCORD</color> OFICIAL DO SERVIDOR!",
+    "VOCÊ ESTÁ JOGANDO NO SERVIDOR <color=orange>ForestRust 5x</color>"
+  ],
+  "Panels": {
+    "AirdropEvent": {
+      "AnchorX": "Left",
+      "AnchorY": "Top",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "1.0 0.63 0.30 1",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 1",
+        "Height": 0.95,
+        "Margin": "0 0.1 0.1 0.15",
+        "Order": 1,
+        "Url": "http://i.imgur.com/dble6vf.png",
+        "Width": 0.8
+      },
+      "Margin": "0 0 0 0.02",
+      "Order": 1,
+      "PanelSettings": {
+        "ActiveColor": "0 1 0 1",
+        "InactiveColor": "255 255 255 1"
+      },
+      "Width": 0.1
+    },
+    "Balance": {
+      "AnchorX": "Right",
+      "AnchorY": "Top",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 255 0.0",
+      "Dock": "MiddleDock3",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 255 0.4",
+        "Height": 1.0,
+        "Margin": "0 0.01 0.1 0.01",
+        "Order": 1,
+        "Url": "https://i.imgur.com/5VMiHcd.png",
+        "Width": 0.23
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 7,
+      "PanelSettings": {
+        "RefreshRate(s)": "5"
+      },
+      "Width": 0.8
+    },
+    "Clock": {
+      "AnchorX": "Left",
+      "AnchorY": "Top",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "1.0 0.63 0.30 1",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 255 0.4",
+        "Height": 0.65,
+        "Margin": "-0.7 -1.05 0.15 0.1",
+        "Order": 2,
+        "Url": "http://i.imgur.com/Q1XdTQT.png",
+        "Width": 0.23
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 3,
+      "PanelSettings": {
+        "ClockUpdateFrequency (seconds)": 4,
+        "TimeFormat": "HH:mm"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.0",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 15,
+        "Height": 0.95,
+        "Margin": "0 0.09 0 0.01",
+        "Order": 0,
+        "Width": 1.0
+      },
+      "Width": 0.35
+    },
+    "Compass": {
+      "AnchorX": "Right",
+      "AnchorY": "Top",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Dock": "MiddleDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.0",
+        "Height": 0.8,
+        "Margin": "0 0.01 0.1 0.03",
+        "Order": 1,
+        "Url": "https://www.transparenttextures.com/patterns/asfalt-light.png",
+        "Width": 0.188
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 8,
+      "PanelSettings": {
+        "RefreshRate(s)": "1",
+        "TextOrAngle": "text"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.0",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 12,
+        "Height": 1.0,
+        "Margin": "0 0.02 0 0",
+        "Order": 2,
+        "Width": 0.76
+      },
+      "Width": 0.2
+    },
+    "Coordinates": {
+      "AnchorX": "Right",
+      "AnchorY": "RightTop",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Dock": "MiddleDock2",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.0",
+        "Height": 0.8,
+        "Margin": "0 0.01 0.1 0.01",
+        "Order": 1,
+        "Url": "https://www.transparenttextures.com/patterns/asfalt-light.png",
+        "Width": 0.13
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 1,
+      "PanelSettings": {
+        "RefreshRate(s)": "3"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.0",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 12,
+        "Height": 1.0,
+        "Margin": "0 0.02 0 0",
+        "Order": 2,
+        "Width": 0.848
+      },
+      "Width": 0.5
+    },
+    "HelicopterEvent": {
+      "AnchorX": "Left",
+      "AnchorY": "Top",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "1.0 0.63 0.30 1",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.0",
+        "Height": 0.8,
+        "Margin": "0 0.02 0.1 0.1",
+        "Order": 1,
+        "Url": "http://i.imgur.com/hTTyTTx.png",
+        "Width": 0.75
+      },
+      "Margin": "0 0 0 0.038",
+      "Order": 2,
+      "PanelSettings": {
+        "ActiveColor": "0.7 0.2 0.2 1",
+        "InactiveColor": "1 1 1 1"
+      },
+      "Width": 0.1
+    },
+    
+    "MessageBox": {
+      "AnchorX": "Right",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "255 255 255 0.05",
+      "Dock": "BottomLeftDoc2k",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Margin": "0 0 0 0.005",
+      "Order": 7,
+      "PanelSettings": {
+        "MessageUpdateFrequency (seconds)": 20,
+        "MsgOrder": "normal"
+      },
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "255 255 255 1.0",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 14,
+        "Height": 0.95,
+        "Margin": "0 0 0 0.005",
+        "Order": 0,
+        "Width": 1.0
+      },
+      "Width": 1.50
+    },
+    "OPlayers": {
+      "AnchorX": "Left",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0.35 0.64 0.98 1",
+      "Dock": "TopLeftDock2",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.0",
+        "Height": 1,
+        "Margin": "0 0.05 -0.02 0.05",
+        "Order": 1,
+        "Url": "http://i.imgur.com/n9EYIWi.png",
+        "Width": 0.22
+      },
+      "Margin": "0 0 0.05 0.02",
+      "Order": 2,
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.0",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "255 255 255 1",
+        "FontSize": 15,
+        "Height": 1.0,
+        "Margin": "0 -0.05 0 0.0",
+        "Order": 2,
+        "Width": 0.7
+      },
+      "Width": 0.40
+    },
+    
+    "Points": {
+      "AnchorX": "Right",
+      "AnchorY": "Bottom",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0 0 0 0.0",
+      "Dock": "BottomRight",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": false,
+        "BackgroundColor": "0 0 0 0.0",
+        "Height": 3.5,
+        "Margin": "0 0.01 0.1 0.01",
+        "Order": 1,
+        "Url": "https://i.imgur.com/AvJzCY0.png",
+        "Width": 0.9
+      },
+      "Margin": "0 0 0 0.01",
+      "Order": 8,
+      "PanelSettings": {
+        "RefreshRate(s)": "5"
+      },
+      "Width": 0.4
+    },
+    "Radiation": {
+      "AnchorX": "Left",
+      "AnchorY": "Top",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "1.0 0.63 0.30 1",
+      "Dock": "TopLeftDock",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.0",
+        "Height": 0.8,
+        "Margin": "0 0.1 0.1 0.15",
+        "Order": 1,
+        "Url": "http://i.imgur.com/owVdFsK.png",
+        "Width": 0.75
+      },
+      "Margin": "0 0 0 0.02",
+      "Order": 1,
+      "PanelSettings": {
+        "ActiveColor": "1 1 0 1",
+        "InactiveColor": "1 1 1 1",
+        "RefreshRate(s)": "3"
+      },
+      "Width": 0.1
+    },
+    "Sleepers": {
+      "AnchorX": "Left",
+      "AnchorY": "Top",
+      "Autoload": true,
+      "Available": true,
+      "BackgroundColor": "0.35 0.64 0.98 1",
+      "Dock": "TopLeftDock2",
+      "FadeOut": 0.0,
+      "Height": 0.95,
+      "Image": {
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "0 0 0 0.1",
+        "Height": 0.8,
+        "Margin": "0 0.05 0.1 0.05",
+        "Order": 1,
+        "Url": "https://png.pngtree.com/svg/20161120/sleep_28722.png",
+        "Width": 0.3
+      },
+      "Margin": "0 0 0 0.02",
+      "Order": 1,
+      "Text": {
+        "Align": "MiddleCenter",
+        "AnchorX": "Left",
+        "AnchorY": "Bottom",
+        "Available": true,
+        "BackgroundColor": "1.0 0.63 0.30 0.5",
+        "Content": "No Content",
+        "FadeIn": 0.0,
+        "FadeOut": 0.0,
+        "FontColor": "1 1 1 1",
+        "FontSize": 15,
+        "Height": 1.0,
+        "Margin": "0 0 0 0.005",
+        "Order": 2,
+        "Width": 0.50
+      },
+      "Width": 0.31
+    }
+  },
+  "ThirdPartyPanels": {},
+  "TimeFormats": [
+    "H:mm",
+    "HH:mm",
+    "h:mm",
+    "h:mm tt"
+  ]
+}

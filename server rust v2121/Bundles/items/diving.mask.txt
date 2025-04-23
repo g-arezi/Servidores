@@ -1,0 +1,90 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -113413047,
+    "shortname": "diving.mask",
+    "displayName": {
+        "token": "diving.mask.name",
+        "english": "Diving Mask"
+    },
+    "displayDescription": {
+        "token": "diving.mask.desc",
+        "english": "A Diving Mask. Provides clear vision under water."
+    },
+    "iconSprite": {
+        "instanceID": 56616
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 114982
+    },
+    "inventoryGrabSound": {
+        "instanceID": 114982
+    },
+    "inventoryDropSound": {
+        "instanceID": 162396
+    },
+    "physImpactSoundDef": {
+        "instanceID": 38526
+    },
+    "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "ce726afd5a93fcf45866d32eb1e3d194"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "38c257dda07ee5f499ad4397797cda21"
+    },
+    "protectionProperties": {
+        "instanceID": 0
+    },
+    "armorProperties": {
+        "instanceID": 111092
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 4,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+

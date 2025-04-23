@@ -1,0 +1,72 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -2099697608,
+    "shortname": "stones",
+    "displayName": {
+        "token": "stones",
+        "english": "Stones"
+    },
+    "displayDescription": {
+        "token": "stones.desc",
+        "english": "Harvested from rocks using tools, basic building material."
+    },
+    "iconSprite": {
+        "instanceID": 178354
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 190960
+    },
+    "inventoryGrabSound": {
+        "instanceID": 190960
+    },
+    "inventoryDropSound": {
+        "instanceID": 71520
+    },
+    "physImpactSoundDef": {
+        "instanceID": 90486
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "005b4b34a76b487469e735de75abe017"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModXPWhenUsed
+{
+    "xpPerUnit": 1.0,
+    "unitSize": 1000
+}
+

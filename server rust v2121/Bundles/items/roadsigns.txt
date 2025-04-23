@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1199391518,
+    "shortname": "roadsigns",
+    "displayName": {
+        "token": "roadsigns.name",
+        "english": "Road Signs"
+    },
+    "displayDescription": {
+        "token": "roadsigns.desc",
+        "english": "Some road signs made of metal."
+    },
+    "iconSprite": {
+        "instanceID": 157512
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 134146
+    },
+    "inventoryGrabSound": {
+        "instanceID": 134146
+    },
+    "inventoryDropSound": {
+        "instanceID": 181930
+    },
+    "physImpactSoundDef": {
+        "instanceID": 40766
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "5f2f7c0f55654294c86d6e002af5cd48"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 549814
+            },
+            "amount": 20.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 20,
+    "scrapFromRecycle": 5,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

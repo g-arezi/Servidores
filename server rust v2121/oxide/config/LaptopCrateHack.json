@@ -1,0 +1,6 @@
+{
+  "Consume laptop (True/False)": true,
+  "Laptops Required (Must be greater than 0)": 1,
+  "Only player that hacked can loot? (True/False)": false,
+  "Require laptop to be in hand (True/False)": false
+}

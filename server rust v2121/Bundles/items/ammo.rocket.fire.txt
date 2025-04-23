@@ -1,0 +1,130 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1638322904,
+    "shortname": "ammo.rocket.fire",
+    "displayName": {
+        "token": "ammo.rocket.fire",
+        "english": "Incendiary Rocket"
+    },
+    "displayDescription": {
+        "token": "ammo.rocket.fire.desc",
+        "english": "Creates flames upon impact."
+    },
+    "iconSprite": {
+        "instanceID": 134140
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 3,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 97532
+    },
+    "inventoryGrabSound": {
+        "instanceID": 97532
+    },
+    "inventoryDropSound": {
+        "instanceID": 41806
+    },
+    "physImpactSoundDef": {
+        "instanceID": 104402
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "021519925e5818343844164366fee76f"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "c687f09b88e2ad947b3f6eccb299feae"
+    },
+    "mods": [],
+    "ammoType": 32,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 80.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "rocket"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1341836
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344546
+            },
+            "amount": 250.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1343144
+            },
+            "amount": 250.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1802020
+            },
+            "amount": 1.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 10.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

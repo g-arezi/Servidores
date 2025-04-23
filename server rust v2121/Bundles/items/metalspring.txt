@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1021495308,
+    "shortname": "metalspring",
+    "displayName": {
+        "token": "metalspring.name",
+        "english": "Metal Spring"
+    },
+    "displayDescription": {
+        "token": "metalspring.desc",
+        "english": "A metal spring. Used to provide motion or resistance in objects."
+    },
+    "iconSprite": {
+        "instanceID": 107734
+    },
+    "category": 13,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 113836
+    },
+    "inventoryGrabSound": {
+        "instanceID": 113836
+    },
+    "inventoryDropSound": {
+        "instanceID": 94132
+    },
+    "physImpactSoundDef": {
+        "instanceID": 44302
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "4a3a2111b446246488d96134dbcf5714"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 549814
+            },
+            "amount": 50.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 0,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 50,
+    "scrapFromRecycle": 10,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

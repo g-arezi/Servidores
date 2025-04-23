@@ -1,0 +1,78 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -295117143,
+    "shortname": "halloween.lootbag",
+    "displayName": {
+        "token": "halloween.lootbag.name",
+        "english": "Halloween Loot Bag"
+    },
+    "displayDescription": {
+        "token": "halloween.lootbag.desc",
+        "english": "A Trick Or Treet loot bag. Usually contains mostly bad candy"
+    },
+    "iconSprite": {
+        "instanceID": 63154
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "920c0bedbcb725f49be256e86fc7e7cb"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModUnwrap
+{
+    "revealList": {
+        "instanceID": 175560
+    },
+    "successEffect": {
+        "guid": "29286773a3f67a14889865e55e599365"
+    },
+    "minTries": 2,
+    "maxTries": 4
+}
+

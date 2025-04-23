@@ -1,0 +1,126 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -2002277461,
+    "shortname": "roadsign.jacket",
+    "displayName": {
+        "token": "roadsign.jacket",
+        "english": "Road Sign Jacket"
+    },
+    "displayDescription": {
+        "token": "roadsign.jacket.desc",
+        "english": "A shoddy piece of body armor made from Metal Fragments and Leather."
+    },
+    "iconSprite": {
+        "instanceID": 157662
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 134146
+    },
+    "inventoryGrabSound": {
+        "instanceID": 134146
+    },
+    "inventoryDropSound": {
+        "instanceID": 181930
+    },
+    "physImpactSoundDef": {
+        "instanceID": 40766
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "65de659685e19c944b6d9dad881c456c"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "69501258bc20899449de581cc6f89e4b"
+    },
+    "protectionProperties": {
+        "instanceID": 87890
+    },
+    "armorProperties": {
+        "instanceID": 72150
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1344458
+            },
+            "amount": 40.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344548
+            },
+            "amount": 3.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344370
+            },
+            "amount": 3.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 3,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

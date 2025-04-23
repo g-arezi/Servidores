@@ -1,0 +1,150 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -119235651,
+    "shortname": "waterjug",
+    "displayName": {
+        "token": "waterjug",
+        "english": "Water Jug"
+    },
+    "displayDescription": {
+        "token": "waterjug.desc",
+        "english": "A large jerry can for water."
+    },
+    "iconSprite": {
+        "instanceID": 186878
+    },
+    "category": 5,
+    "selectionPanel": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 42230
+    },
+    "inventoryGrabSound": {
+        "instanceID": 42230
+    },
+    "inventoryDropSound": {
+        "instanceID": 153888
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "0dc2f1f5fcdb66946b5ff82c167dcdad"
+    },
+    "Traits": 40,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModContainer
+{
+    "capacity": 1,
+    "maxStackSize": 4000,
+    "containerFlags": 8,
+    "onlyAllowedContents": 2,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [],
+    "openInDeployed": true,
+    "openInInventory": true,
+    "defaultContents": [
+        {
+            "itemDef": {
+                "instanceID": 1344554
+            },
+            "amount": 4000.0
+        }
+    ]
+}
+
+ItemModConsumeContents
+{
+    "consumeEffect": {
+        "guid": ""
+    }
+}
+
+ItemModMenuOption
+{
+    "commandName": "consumecontents",
+    "actionTarget": {
+        "instanceID": 1343334
+    },
+    "option": {
+        "name": {
+            "token": "drink_contents",
+            "english": "Drink Contents"
+        },
+        "description": {
+            "token": "",
+            "english": ""
+        },
+        "icon": {
+            "instanceID": 66528
+        },
+        "order": 0
+    },
+    "isPrimaryOption": false
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "332ee3cbd24770946989c4d7494c260e"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 100.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

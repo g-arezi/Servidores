@@ -1,0 +1,14 @@
+{
+  "GiftIconImage": "http://i.imgur.com/zMe9ky5.png",
+  "GiftsPerPanel": 4,
+  "HideVIP": false,
+  "InfoInterval": 15,
+  "maxx": 0.34,
+  "maxy": 0.055,
+  "minx": 0.21,
+  "miny": 0.005,
+  "NoAFK": true,
+  "ResetInDays": 1,
+  "UITextSize": 12,
+  "UseGatherIncrease": true
+}

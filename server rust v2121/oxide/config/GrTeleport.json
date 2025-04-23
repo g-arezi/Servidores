@@ -1,0 +1,18 @@
+{
+  "AllowableWaterDepth": 1.0,
+  "AllowBuildingBlocked": false,
+  "AllowOffCargoship": false,
+  "AvoidWater": true,
+  "CooldownInSeconds": 15,
+  "DisplayDeathLocation": true,
+  "DistanceToWarnConstructions": 15,
+  "groupData": {},
+  "LimitPerDay": -1,
+  "MaxTemperatureForTeleport": 40.0,
+  "MinHealthForTeleport": 40.0,
+  "MinHungerForTeleport": 40.0,
+  "MinTemperatureForTeleport": 0.0,
+  "MinThirstForTeleport": 40.0,
+  "RestrictedZones": "ZZZ123,YYY666",
+  "SecondsBeforeTeleport": 10
+}

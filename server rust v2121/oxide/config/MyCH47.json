@@ -1,0 +1,14 @@
+{
+  "Chat Settings": {
+    "ChatColor": "#bbffb1",
+    "Prefix": "[My CH47] ",
+    "PrefixColor": "#149800",
+    "SteamIDIcon": "76561198332562475"
+  },
+  "Cooldown (on permission)": {
+    "Value in minutes": "60"
+  },
+  "Debris Settings": {
+    "Remove debris": "false"
+  }
+}

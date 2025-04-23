@@ -1,0 +1,72 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 69511070,
+    "shortname": "metal.fragments",
+    "displayName": {
+        "token": "metal.fragments",
+        "english": "Metal Fragments"
+    },
+    "displayDescription": {
+        "token": "metal.fragments.desc",
+        "english": "Metal Fragments. Smelted from Metal Ore, used in lots of different crafting recipes."
+    },
+    "iconSprite": {
+        "instanceID": 100482
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 119536
+    },
+    "inventoryGrabSound": {
+        "instanceID": 119536
+    },
+    "inventoryDropSound": {
+        "instanceID": 81658
+    },
+    "physImpactSoundDef": {
+        "instanceID": 104402
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "e69ed9ec40a74e441aca29dc130d2447"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModXPWhenUsed
+{
+    "xpPerUnit": 1.0,
+    "unitSize": 1000
+}
+

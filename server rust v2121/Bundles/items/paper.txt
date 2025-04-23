@@ -1,0 +1,90 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1779183908,
+    "shortname": "paper",
+    "displayName": {
+        "token": "paper",
+        "english": "Paper"
+    },
+    "displayDescription": {
+        "token": "paper.desc",
+        "english": "Paper, a ingredient for Building plan and Note."
+    },
+    "iconSprite": {
+        "instanceID": 159668
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 187288
+    },
+    "inventoryGrabSound": {
+        "instanceID": 187288
+    },
+    "inventoryDropSound": {
+        "instanceID": 114100
+    },
+    "physImpactSoundDef": {
+        "instanceID": 148834
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "8e24fa3b5f2dc2545b850bd7da654419"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 5.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 5.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

@@ -1,0 +1,51 @@
+{
+  "Settings": {
+    "Allowed animal types (Horse, Bear, Boar, Chicken, Stag, Wolf)": [
+      "horse",
+      "bear",
+      "boar",
+      "chicken"
+    ],
+    "Are animals invincible when being ridden": true,
+    "Allow third person toggle (middle mouse button)": true
+  },
+  "Command": {
+    "Stop command cooldown time (seconds)": 30,
+    "Spawn command cooldown time (seconds)": 3600,
+    "Enable command to stop animals within radius": true,
+    "Radius in which to stop nearby animals": 10,
+    "Are animals invincible whilst stopped": true,
+    "Amount of time animals stay stopped": 10
+  },
+  "Speeds": {
+    "bear": {
+      "Walking speed": 1.8,
+      "Sprinting speed": 8.0
+    },
+    "boar": {
+      "Walking speed": 3.4,
+      "Sprinting speed": 7.0
+    },
+    "chicken": {
+      "Walking speed": 0.4,
+      "Sprinting speed": 2.0
+    },
+    "horse": {
+      "Walking speed": 2.4,
+      "Sprinting speed": 12.0
+    },
+    "stag": {
+      "Walking speed": 2.2,
+      "Sprinting speed": 11.0
+    },
+    "wolf": {
+      "Walking speed": 1.8,
+      "Sprinting speed": 9.0
+    }
+  },
+  "Version": {
+    "Major": 3,
+    "Minor": 0,
+    "Patch": 1
+  }
+}

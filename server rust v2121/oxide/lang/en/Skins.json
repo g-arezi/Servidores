@@ -1,0 +1,14 @@
+{
+  "NotAllowed": "You don't have permission to use this command.",
+  "ConsoleIncorrectSkinIdFormat": "Wrong format for the skinId, this must be numbers.",
+  "ConsoleItemIsNotFound": "Item with shortname {0} is not found.",
+  "ConsoleItemSkinExist": "The skinId {0} is already exist for item {1}",
+  "ConsoleItemAdded": "A new skinId {0} added for item {1}",
+  "ConsoleRemoveItemNotFound": "The item {0} is not found in config file. Nothing to remove.",
+  "ConsoleRemoveSkinNotFound": "The skinId {0} is not found in config file. Nothing to remove.",
+  "ConsoleRemoveSkinRemoved": "The skinId {0} is found in config file and removed.",
+  "ConsoleListItemNotFound": "The item {0} is not found in config file.",
+  "ConsoleWorkshopLoad": "Start to load workshop skins, it'll take some time, please wait.",
+  "ConsoleWorkshopLoaded": "The {0} new skins is loaded and append to config file.",
+  "ConsoleUniqueSort": "All skin duplicates was removed."
+}

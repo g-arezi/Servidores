@@ -1,0 +1,90 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -575483084,
+    "shortname": "santahat",
+    "displayName": {
+        "token": "santahat",
+        "english": "Santa Hat"
+    },
+    "displayDescription": {
+        "token": "santahat.desc",
+        "english": "A santa hat. Ho Ho ho."
+    },
+    "iconSprite": {
+        "instanceID": 89148
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 66778
+    },
+    "inventoryGrabSound": {
+        "instanceID": 66778
+    },
+    "inventoryDropSound": {
+        "instanceID": 42826
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 100.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "da22125739285fa48a9ef67fb5ec2f94"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "9d335f67ef8472c44bdd9b97576e465c"
+    },
+    "protectionProperties": {
+        "instanceID": 111956
+    },
+    "armorProperties": {
+        "instanceID": 111092
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+

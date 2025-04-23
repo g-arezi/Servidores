@@ -1,0 +1,25 @@
+{
+  "Settings": {
+    "box": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+    "cooldownMinutes": 1,
+    "NPCIDs": [],
+    "NPCOnly": false,
+    "radiationMax": 15.0,
+    "recyclableTypes": [
+      "Ammunition",
+      "Attire",
+      "Common",
+      "Component",
+      "Construction",
+      "Items",
+      "Medical",
+      "Misc",
+      "Tool",
+      "Traps",
+      "Weapon"
+    ],
+    "refundRatio": 50.0,
+    "scrapMultiplier": 10.0
+  },
+  "VERSION": "2.1.8"
+}

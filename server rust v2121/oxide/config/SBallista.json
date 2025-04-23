@@ -1,0 +1,7 @@
+{
+  "Cooldown - Reload Cooldown time if enabled : ": 10.0,
+  "Cooldown - Use Reload Cooldown ? ": false,
+  "Spear - Damage done by spears when they impact : ": 50.0,
+  "Spear - Hit radius of impact : ": 1.0,
+  "Spear - Number of spears shot out each time its fired : ": 20
+}

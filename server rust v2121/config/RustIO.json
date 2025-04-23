@@ -1,0 +1,16 @@
+{
+  "apiKey": "hzuSQ7qq6xsgeF4SD9ehZKpk5nH1oFOt",
+  "broadcastChat": true,
+  "broadcastDeaths": true,
+  "broadcastSpawns": true,
+  "defaultLanguage": "en",
+  "displayBuildings": false,
+  "displayMonuments": true,
+  "displayMortality": true,
+  "enableLocationSharing": true,
+  "helpMessage": " ",
+  "hideSpecificMonuments": [
+    "mountain"
+  ],
+  "welcomeMessage": "Olá! nosso servidor possui uma <color=orange>dll</color> chamada <color=orange>Rust:IO</color> está <color=orange>dll</color> possui um <color=orange>livemap</color> que pode ser checado em:<color=orange>https://play-rust.io</color>!"
+}

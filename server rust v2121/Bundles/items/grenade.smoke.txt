@@ -1,0 +1,74 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1263920163,
+    "shortname": "grenade.smoke",
+    "displayName": {
+        "token": "grenade.smoke",
+        "english": "Smoke Grenade"
+    },
+    "displayDescription": {
+        "token": "grenade.smoke.desc",
+        "english": "Produces a large cloud of opaque greyish white smoke."
+    },
+    "iconSprite": {
+        "instanceID": 76632
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 2,
+    "quickDespawn": false,
+    "rarity": 4,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 166502
+    },
+    "inventoryGrabSound": {
+        "instanceID": 166502
+    },
+    "inventoryDropSound": {
+        "instanceID": 181346
+    },
+    "physImpactSoundDef": {
+        "instanceID": 58636
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "6d8e84c3d87e806429118793a1188dd6"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "2eba909ba3bd5f440acf6e92bfd87b1c"
+    },
+    "defaultBone": ""
+}
+

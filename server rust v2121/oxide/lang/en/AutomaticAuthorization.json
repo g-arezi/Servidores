@@ -1,0 +1,15 @@
+{
+  "turretSuccess": "Successfully added <color=#ce422b>{0}</color> friends/clan members to <color=#ce422b>{1}</color> turrets auth list",
+  "cupboardSuccess": "Successfully added <color=#ce422b>{0}</color> friends/clan members to <color=#ce422b>{1}</color> cupboards auth list",
+  "clanSyn": "<color=#ce422b>/{0} autoclan</color> - Automatically authorizes your clan mates to objects when you place them",
+  "friendSyn": "<color=#ce422b>/{0} autofriend</color> - Automatically authorizes your friends to objects when you place them",
+  "noSharePlugin": "Clans and Friends is not installed on this server. Unable to automatically authorize other players",
+  "autoClansDisabled": "You have disabled automatic authorization for clan members",
+  "autoClansEnabled": "You have enabled automatic authorization for clan members",
+  "autoFriendsDisabled": "You have disabled automatic authorization for friends",
+  "autoFriendsEnabled": "You have enabled automatic authorization for friends",
+  "enabled": "<color=#8ee700>Enabled</color>",
+  "disabled": "<color=#ce422b>Disabled</color>",
+  "autoShareClans": "Auto share for clans is: {0}",
+  "autoShareFriends": "Auto share for friends is: {0}"
+}

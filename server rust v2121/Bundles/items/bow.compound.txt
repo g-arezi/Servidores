@@ -1,0 +1,110 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 884424049,
+    "shortname": "bow.compound",
+    "displayName": {
+        "token": "bow.compound",
+        "english": "Compound Bow"
+    },
+    "displayDescription": {
+        "token": "bow.compound.desc",
+        "english": "A very powerful bow. Can only be fully drawn while stationary. Keep still for bonus damage and speed."
+    },
+    "iconSprite": {
+        "instanceID": 191080
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 50666
+    },
+    "inventoryGrabSound": {
+        "instanceID": 50666
+    },
+    "inventoryDropSound": {
+        "instanceID": 33494
+    },
+    "physImpactSoundDef": {
+        "instanceID": 107626
+    },
+    "condition": {
+        "enabled": true,
+        "max": 50.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "1a8e755580670e045a90be372fda2d9f"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "e07058263198c4f4aacdb1dfe506008b"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 100.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 75.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341840
+            },
+            "amount": 2.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "workbenchLevelRequired": 1,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

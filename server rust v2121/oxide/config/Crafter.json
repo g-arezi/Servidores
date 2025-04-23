@@ -1,0 +1,28 @@
+{
+  "Компоненты необходимые для крафта": {
+    "Для винтовки LR-300": {
+      "metal de alta calidad": 60,
+      "metal fragmentado": 200,
+      "Cuerpo de rifle": 2,
+      "Molas": 0
+    },
+    "Для пулемета M249": {
+      "metal de alta calidad": 120,
+      "metal fragmentado": 400,
+      "Cuerpo de rifle": 4,
+      "Molas": 0
+    },
+    "Для пистолета M92": {
+      "metal de alta calidad": 15,
+      "Тuberia": 3,
+      "Cuerpo Semiautomatico": 1,
+      "Molas": 0
+    },
+    "Для дробовика Spas12": {
+      "metal de alta calidad": 15,
+      "Тuberia": 3,
+      "metal fragmentado": 200,
+      "Molas": 0
+    }
+  }
+}

@@ -1,0 +1,90 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "1ac24351ffae4084c8047274bf05f19e"
+    },
+    "protectionProperties": {
+        "instanceID": 98918
+    },
+    "armorProperties": {
+        "instanceID": 168544
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": "fed838d79b819ab4caede47db2514ab8"
+    }
+}
+
+ItemDefinition
+{
+    "itemid": 273951840,
+    "shortname": "scarecrow.suit",
+    "displayName": {
+        "token": "scarecrow.suit.name",
+        "english": "WIP"
+    },
+    "displayDescription": {
+        "token": "scarecrow.suit.desc",
+        "english": "WIP"
+    },
+    "iconSprite": {
+        "instanceID": 86664
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 1,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 185904
+    },
+    "inventoryGrabSound": {
+        "instanceID": 185904
+    },
+    "inventoryDropSound": {
+        "instanceID": 27124
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+

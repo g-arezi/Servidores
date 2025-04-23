@@ -1,0 +1,7 @@
+{
+  "Automatic banning enabled": false,
+  "Automatic kicking enabled": true,
+  "Developer option, use with care": {
+    "Recoil timer": 0.6
+  }
+}

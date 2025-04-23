@@ -1,0 +1,104 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 442886268,
+    "shortname": "rocket.launcher",
+    "displayName": {
+        "token": "rocket.launcher",
+        "english": "Rocket Launcher"
+    },
+    "displayDescription": {
+        "token": "rocket.launcher.desc",
+        "english": "Shoots rockets slightly farther than North Korea."
+    },
+    "iconSprite": {
+        "instanceID": 118272
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 4,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 69434
+    },
+    "inventoryGrabSound": {
+        "instanceID": 69434
+    },
+    "inventoryDropSound": {
+        "instanceID": 29570
+    },
+    "physImpactSoundDef": {
+        "instanceID": 153384
+    },
+    "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "9e4647a42ce2a614298bf858708a8345"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "11a32cc58482de74d88c24c91be179d0"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341836
+            },
+            "amount": 6.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 4,
+    "workbenchLevelRequired": 3,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 180.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+

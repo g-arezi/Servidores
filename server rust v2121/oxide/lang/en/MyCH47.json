@@ -1,0 +1,7 @@
+{
+  "AlreadyMsg": "You already have a CH47 helicopter.\nuse command '/noch47' to remove it.",
+  "SpawnedMsg": "Your CH47 has spawned !\nuse command '/noch47' to remove it.",
+  "KilledMsg": "Your CH47 has been removed/killed.",
+  "NoPermMsg": "You are not allowed to do this.",
+  "CooldownMsg": "You must wait before a new CH47"
+}

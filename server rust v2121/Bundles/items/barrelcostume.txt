@@ -1,0 +1,90 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1215166612,
+    "shortname": "barrelcostume",
+    "displayName": {
+        "token": "barrelcostume.name",
+        "english": "A Barrel Costume"
+    },
+    "displayDescription": {
+        "token": "barrelcostum.desc",
+        "english": "A stupid barrel costume, so you can hide like a pro..p"
+    },
+    "iconSprite": {
+        "instanceID": 73828
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 114982
+    },
+    "inventoryGrabSound": {
+        "instanceID": 114982
+    },
+    "inventoryDropSound": {
+        "instanceID": 162396
+    },
+    "physImpactSoundDef": {
+        "instanceID": 38526
+    },
+    "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "e28df54744f03a64393d06c84a19642e"
+    },
+    "protectionProperties": {
+        "instanceID": 0
+    },
+    "armorProperties": {
+        "instanceID": 111092
+    },
+    "movementProperties": {
+        "instanceID": 188584
+    },
+    "occlusionType": 3,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": true,
+    "viewmodelAddition": {
+        "guid": ""
+    }
+}
+

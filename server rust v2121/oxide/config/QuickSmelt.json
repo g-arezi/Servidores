@@ -1,0 +1,38 @@
+{
+  "Permission": "quicksmelt.use",
+  "Use Permission": false,
+  "Speed Multipliers": {
+    "furnace": 2.0,
+    "furnace.large": 2.0,
+    "metal.fragments": 25.0,
+    "sulfur": 25.0,
+    "charcoal": 150.0,
+    "high.quality.metal": 2.0
+  },
+  "Fuel Usage Speed Multipliers": {
+    "furnace": 0.2,
+    "metal.fragments": 25.0,
+    "sulfur": 25.0,
+    "charcoal": 150.0,
+    "high.quality.metal": 2.0,
+    "furnace.large": 0.2
+  },
+  "Fuel Usage Multipliers": {
+    "furnace": 1,
+    "furnace.large": 1,
+    "campfire": 2
+  },
+  "Output Multipliers": {
+    "furnace": {
+      "charcoal": 150.0
+    }
+  },
+  "Whitelist": {},
+  "Blacklist": {
+    "furnace": [],
+    "campfire": [],
+    "furnace.large": []
+  },
+  "Smelting Frequency (Smelt items every N smelting ticks)": 2,
+  "Debug": false
+}

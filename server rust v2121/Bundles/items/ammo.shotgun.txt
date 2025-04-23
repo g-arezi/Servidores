@@ -1,0 +1,141 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1685290200,
+    "shortname": "ammo.shotgun",
+    "displayName": {
+        "token": "ammo.shotgun",
+        "english": "12 Gauge Buckshot"
+    },
+    "displayDescription": {
+        "token": "ammo.shotgun.desc",
+        "english": "Ammunition for a Shotgun."
+    },
+    "iconSprite": {
+        "instanceID": 155238
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 64,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "4e4f2fa9263fe404191f9d39c4b78503"
+    },
+    "mods": [],
+    "ammoType": 4,
+    "numProjectiles": 14,
+    "projectileSpread": 12.0,
+    "projectileVelocity": 225.0,
+    "projectileVelocitySpread": 20.0,
+    "useCurve": true,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [
+            {
+                "serializedVersion": "3",
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 1.1266950368881226,
+                "outSlope": 1.1266950368881226,
+                "tangentMode": 0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+            },
+            {
+                "serializedVersion": "3",
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0,
+                "tangentMode": 0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+            }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 0
+    },
+    "category": "shotgun"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 5.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344546
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 3.0,
+    "amountToCreate": 2,
+    "UnlockAchievment": ""
+}
+

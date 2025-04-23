@@ -1,0 +1,8 @@
+{
+  "Usage": "Usage: portablevehicles.give [steamID / player name] [vehicle name]\n",
+  "Permission": "You don't have permission to use that!",
+  "Received": "You received portable vehicle!",
+  "No Player": "There are no players with that Name or steamID!",
+  "Multiple Players": "There are many players with that Name:\n{0}",
+  "Pickup Ownership": "Only owner can pickup vehicles!"
+}

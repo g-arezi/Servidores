@@ -1,0 +1,131 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "ec1d1c38ffc30294a9e0e72c501fe634"
+    },
+    "protectionProperties": {
+        "instanceID": 79004
+    },
+    "armorProperties": {
+        "instanceID": 168544
+    },
+    "movementProperties": {
+        "instanceID": 0
+    },
+    "occlusionType": 64,
+    "blocksAiming": false,
+    "emissive": false,
+    "accuracyBonus": 0.0,
+    "blocksEquipping": false,
+    "viewmodelAddition": {
+        "guid": "3250aafe6d0132645880d6c3521e3d19"
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1344770
+            },
+            "amount": 5.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344370
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1339836
+            },
+            "amount": 8.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 0,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 1.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemDefinition
+{
+    "itemid": -253079493,
+    "shortname": "hazmatsuit_scientist",
+    "displayName": {
+        "token": "hazmatsuit.scientist.name",
+        "english": "Scientist Suit"
+    },
+    "displayDescription": {
+        "token": "hazmatsuit.desc",
+        "english": "A hazmat suit made from radiation resistant rubber."
+    },
+    "iconSprite": {
+        "instanceID": 35172
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 1,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 185904
+    },
+    "inventoryGrabSound": {
+        "instanceID": 185904
+    },
+    "inventoryDropSound": {
+        "instanceID": 27124
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemFootstepSounds
+{
+    "effectFolder": "rubberboots"
+}
+

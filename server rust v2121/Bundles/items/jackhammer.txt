@@ -1,0 +1,113 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1488979457,
+    "shortname": "jackhammer",
+    "displayName": {
+        "token": "jackhammer.name",
+        "english": "Jackhammer"
+    },
+    "displayDescription": {
+        "token": "jackhammer.desc",
+        "english": "A Pneumatic Jackhammer to blast through ore nodes. The sheer power of this device requires no aiming as all weak spots will be instantly destroyed. Works well on human flesh. Can be refilled at a Workbench."
+    },
+    "iconSprite": {
+        "instanceID": 43040
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 3,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 96550
+    },
+    "inventoryGrabSound": {
+        "instanceID": 96550
+    },
+    "inventoryDropSound": {
+        "instanceID": 141280
+    },
+    "physImpactSoundDef": {
+        "instanceID": 50832
+    },
+    "condition": {
+        "enabled": true,
+        "max": 300.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "fe7c539be69a0eb478b8d266e44e73eb"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "efe6db94978aa474ab82842136c5bfc5"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1341836
+            },
+            "amount": 1.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1341838
+            },
+            "amount": 5.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": false,
+    "isResearchable": false,
+    "rarity": 3,
+    "workbenchLevelRequired": 2,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 30,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 60.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": ""
+}
+
+ItemModRepair
+{
+    "conditionLost": 0.05000000074505806,
+    "successEffect": {
+        "guid": "298f903eac8351f4a9956f8355712eb7"
+    },
+    "workbenchLvlRequired": 1
+}
+

@@ -1,0 +1,6 @@
+{
+  "InvFull": "Your <color=yellow>inventory</color> is <color=red>full!</color>",
+  "NormalSpeed": "This item <color=red>was removed</color> frome InstaCraft and will be crafted with <color=yellow>normal</color> speed.",
+  "Blocked": "This items is <color=red>blocked</color> from crafting",
+  "NotEnoughtSlots": "<color=red>Not enought slots</color> in the inventory! Created <color=green>{0}</color>/<color=green>{1}</color>"
+}

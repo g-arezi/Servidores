@@ -1,0 +1,5 @@
+{
+  "maxExplosionDistance": 4.0,
+  "minExplosionDistance": 2.0,
+  "playerDetectRadius": 3.0
+}

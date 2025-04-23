@@ -1,0 +1,79 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1880870149,
+    "shortname": "keycard_red",
+    "displayName": {
+        "token": "keycard.red.name",
+        "english": "Red Keycard"
+    },
+    "displayDescription": {
+        "token": "keycard.red.desc",
+        "english": "A keycard with advanced clearance, grants access to top level areas"
+    },
+    "iconSprite": {
+        "instanceID": 154344
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 42230
+    },
+    "inventoryGrabSound": {
+        "instanceID": 42230
+    },
+    "inventoryDropSound": {
+        "instanceID": 153888
+    },
+    "physImpactSoundDef": {
+        "instanceID": 43654
+    },
+    "condition": {
+        "enabled": true,
+        "max": 4.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "5fb74a00ee0f0a445bbd1fd564e3b58b"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "5fbd3f1c053689c45aa9cdb9846d8109"
+    },
+    "defaultBone": ""
+}
+
+ItemModKeycard
+{
+    "accessLevel": 3
+}
+

@@ -1,0 +1,149 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 14241751,
+    "shortname": "arrow.fire",
+    "displayName": {
+        "token": "arrow.fire",
+        "english": "Fire Arrow"
+    },
+    "displayDescription": {
+        "token": "arrow.fire.desc",
+        "english": "A fuel soaked arrow, ignite it by aiming into a fire source."
+    },
+    "iconSprite": {
+        "instanceID": 78956
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 64,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 50666
+    },
+    "inventoryGrabSound": {
+        "instanceID": 50666
+    },
+    "inventoryDropSound": {
+        "instanceID": 33494
+    },
+    "physImpactSoundDef": {
+        "instanceID": 99838
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "23b5f5123da607147b38b744d15adf1c"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectileSpawn
+{
+    "projectileObject": {
+        "guid": "fef192ff824ba3f429e7c324d688c6cc"
+    },
+    "mods": [
+        {
+            "instanceID": 1343426
+        }
+    ],
+    "ammoType": 8,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 40.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "arrow",
+    "createOnImpactChance": 0.75,
+    "createOnImpact": {
+        "guid": "3a80f17a547385744bfed4fbf3a27a73"
+    },
+    "spreadAngle": 45.0,
+    "spreadVelocityMin": 2.0,
+    "spreadVelocityMax": 5.0,
+    "numToCreateChances": 3
+}
+
+ItemModProjectileRadialDamage
+{
+    "radius": 3.0,
+    "damage": {
+        "type": 5,
+        "amount": 20.0
+    },
+    "effect": {
+        "guid": "931a947f2cc91e948be0544751072b43"
+    },
+    "ignoreHitObject": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 212708
+            },
+            "amount": 2.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1343144
+            },
+            "amount": 10.0
+        }
+    ],
+    "defaultBlueprint": false,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 1,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 3.0,
+    "amountToCreate": 2,
+    "UnlockAchievment": ""
+}
+

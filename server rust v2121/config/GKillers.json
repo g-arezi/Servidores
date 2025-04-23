@@ -1,0 +1,14 @@
+{
+  "Options": {
+    "Better chat group": "killer",
+    "Permission": "cangkillers",
+    "System enable": true,
+    "Time to close": 180,
+    "Use GUI": false
+  },
+  "Settings": {
+    "Chat prefix": "ForestRust",
+    "Color prefix": "#FF0000",
+    "Version GUIAnnouncements (NOT SPACE)": 122
+  }
+}

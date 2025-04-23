@@ -1,0 +1,104 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1443579727,
+    "shortname": "bow.hunting",
+    "displayName": {
+        "token": "bow.hunting",
+        "english": "Hunting Bow"
+    },
+    "displayDescription": {
+        "token": "bow.hunting.desc",
+        "english": "Hunting Bow, useful for short to medium range combat and hunting."
+    },
+    "iconSprite": {
+        "instanceID": 38506
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 50666
+    },
+    "inventoryGrabSound": {
+        "instanceID": 50666
+    },
+    "inventoryDropSound": {
+        "instanceID": 33494
+    },
+    "physImpactSoundDef": {
+        "instanceID": 107626
+    },
+    "condition": {
+        "enabled": true,
+        "max": 50.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "cb03dddac1611514a901d68de48ecdea"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "1d6821bb3ad2bd54890fc63a2797c08e"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 212708
+            },
+            "amount": 50.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": "CRAFT_HUNTING_BOW"
+}
+

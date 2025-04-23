@@ -1,0 +1,106 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -946369541,
+    "shortname": "lowgradefuel",
+    "displayName": {
+        "token": "lowgradefuel",
+        "english": "Low Grade Fuel"
+    },
+    "displayDescription": {
+        "token": "lowgradefuel.desc",
+        "english": "Low Grade Fuel, used to power light sources."
+    },
+    "iconSprite": {
+        "instanceID": 150004
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 500,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "07fbb99a95da69f4a9a70f823048c999"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 1345510
+            },
+            "amount": 3.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 212708
+            },
+            "amount": 1.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 5.0,
+    "amountToCreate": 4,
+    "UnlockAchievment": ""
+}
+
+ItemModBurnable
+{
+    "fuelAmount": 150.0,
+    "byproductItem": {
+        "instanceID": 0
+    },
+    "byproductAmount": 1,
+    "byproductChance": 0.0
+}
+

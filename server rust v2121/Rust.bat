@@ -1,0 +1,2 @@
+@echo off
+RustDedicated.exe -batchmode  +server.port 28015 +rcon.port 28016 +server.tickrate 10 +server.hostname "[RaydemifyGames]" +server.level "Barren" +server.worldsize 3600 +server.identity "Invaded Lands" +server.maxplayers 100 +server.secure false +server.encryption 0 -cfg "server\firerust\cfg\server.cfg"

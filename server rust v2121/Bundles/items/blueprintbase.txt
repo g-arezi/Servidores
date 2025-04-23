@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -996920608,
+    "shortname": "blueprintbase",
+    "displayName": {
+        "token": "blueprintbase.name",
+        "english": "Blueprint"
+    },
+    "displayDescription": {
+        "token": "blueprintbase.desc",
+        "english": "Blueprint"
+    },
+    "iconSprite": {
+        "instanceID": 80078
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 187288
+    },
+    "inventoryGrabSound": {
+        "instanceID": 187288
+    },
+    "inventoryDropSound": {
+        "instanceID": 114100
+    },
+    "physImpactSoundDef": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": true,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModMenuOption
+{
+    "commandName": "study",
+    "actionTarget": {
+        "instanceID": 1341798
+    },
+    "option": {
+        "name": {
+            "token": "learn_blueprint",
+            "english": "Learn Blueprint"
+        },
+        "description": {
+            "token": "learn_blueprint_desc",
+            "english": "Study this blueprint and permanently learn how to craft the item. This blueprint is destroyed in the process"
+        },
+        "icon": {
+            "instanceID": 119942
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+
+ItemModStudyBlueprint
+{
+    "studyEffect": {
+        "guid": "a83888e1a3b05bc49b8ac6baf5599d8f"
+    }
+}
+

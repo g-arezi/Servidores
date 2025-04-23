@@ -1,0 +1,95 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 756517185,
+    "shortname": "xmas.present.medium",
+    "displayName": {
+        "token": "xmas.present.medium.name",
+        "english": "Medium Present"
+    },
+    "displayDescription": {
+        "token": "xmas.present.medium.desc",
+        "english": "A medium present, might be good! Collect 5 to upgrade to a larger present."
+    },
+    "iconSprite": {
+        "instanceID": 112362
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 5,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "d22a456500c99a24597c18cf2760cf29"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModUpgrade
+{
+    "numForUpgrade": 5,
+    "upgradeSuccessChance": 1.0,
+    "numToLoseOnFail": 10,
+    "upgradedItem": {
+        "instanceID": 2162978
+    },
+    "numUpgradedItem": 1,
+    "successEffect": {
+        "guid": "33014c9966088dd429f292238b5e7370"
+    },
+    "failEffect": {
+        "guid": ""
+    }
+}
+
+ItemModUnwrap
+{
+    "revealList": {
+        "instanceID": 135792
+    },
+    "successEffect": {
+        "guid": "29286773a3f67a14889865e55e599365"
+    },
+    "minTries": 1,
+    "maxTries": 1
+}
+

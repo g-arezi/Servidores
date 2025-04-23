@@ -1,0 +1,157 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1789825282,
+    "shortname": "candycaneclub",
+    "displayName": {
+        "token": "candycaneclub",
+        "english": "Candy Cane Club"
+    },
+    "displayDescription": {
+        "token": "candycaneclub.desc",
+        "english": "Smash some faces with this large piece of candy"
+    },
+    "iconSprite": {
+        "instanceID": 41172
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 42230
+    },
+    "inventoryGrabSound": {
+        "instanceID": 42230
+    },
+    "inventoryDropSound": {
+        "instanceID": 153888
+    },
+    "physImpactSoundDef": {
+        "instanceID": 46228
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "1d5316b5be4df5a41b2c50d5bd3d8cb6"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "dd881f1b71a9515458823c519afaaf03"
+    },
+    "defaultBone": ""
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "56da2fa698e36e24dbe610e5ebc2b5ae"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 20.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "bullet"
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "39e135129dffd364aa355ab94a908eeb"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [],
+    "primaryConsumable": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 0,
+    "conditionFractionToLose": 0.25,
+    "effects": [
+        {
+            "type": 0,
+            "amount": 300.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": 100.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 7,
+            "amount": 16.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 2162326
+    },
+    "option": {
+        "name": {
+            "token": "Lick",
+            "english": "Lick"
+        },
+        "description": {
+            "token": "eat_desc",
+            "english": "Lick it"
+        },
+        "icon": {
+            "instanceID": 41586
+        },
+        "order": 0
+    },
+    "isPrimaryOption": false
+}
+

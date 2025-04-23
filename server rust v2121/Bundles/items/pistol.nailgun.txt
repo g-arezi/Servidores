@@ -1,0 +1,119 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1953903201,
+    "shortname": "pistol.nailgun",
+    "displayName": {
+        "token": "pistol.nailgun",
+        "english": "Nailgun"
+    },
+    "displayDescription": {
+        "token": "pistol.nailgun.desc",
+        "english": "A construction tool turned deadly"
+    },
+    "iconSprite": {
+        "instanceID": 183064
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 166502
+    },
+    "inventoryGrabSound": {
+        "instanceID": 166502
+    },
+    "inventoryDropSound": {
+        "instanceID": 181346
+    },
+    "physImpactSoundDef": {
+        "instanceID": 173414
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 0.10000000149011612,
+            "fractionMax": 0.20000000298023225
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "ea42998b99753fa4b879dd63d7a9f821"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "3620d4eec3e2b244e892d823717bc95f"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213080
+            },
+            "amount": 75.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 549814
+            },
+            "amount": 15.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": false,
+    "rarity": 2,
+    "workbenchLevelRequired": 1,
+    "scrapRequired": 50,
+    "scrapFromRecycle": 10,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 30.0,
+    "amountToCreate": 1,
+    "UnlockAchievment": "CRAFT_NAILGUN"
+}
+
+ItemModContainer
+{
+    "capacity": 0,
+    "maxStackSize": 0,
+    "containerFlags": 96,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

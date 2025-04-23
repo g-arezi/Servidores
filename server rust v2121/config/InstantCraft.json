@@ -1,0 +1,10 @@
+{
+  "Blocked item list": [],
+  "Normal Speed": [
+    "Rock"
+  ],
+  "Prefix": "ForestRust",
+  "Prefix Color": "#FF0000",
+  "Randomize item skins if skin is zero": true,
+  "Split Stacks": true
+}

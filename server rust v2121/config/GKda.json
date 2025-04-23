@@ -1,0 +1,11 @@
+﻿{
+  "Configurações": {
+    "Tag de mensagens do chat": "ForestRust"
+  },
+  "Opções": {
+    "Cor da tag de mensagens no chat": "#FF0000",
+    "Mensagem automaticas": true,
+    "Tamanho da tag de mensagens no chat": 15,
+    "Tempo de envio de mensagem automatica": 120
+  }
+}

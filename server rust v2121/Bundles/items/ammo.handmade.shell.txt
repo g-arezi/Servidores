@@ -1,0 +1,141 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 588596902,
+    "shortname": "ammo.handmade.shell",
+    "displayName": {
+        "token": "ammo.handmade.shell",
+        "english": "Handmade Shell"
+    },
+    "displayDescription": {
+        "token": "ammo.handmade.shell.desc",
+        "english": "Shoddy ammo with multiple projectiles."
+    },
+    "iconSprite": {
+        "instanceID": 192894
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 64,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "99a05687f97d691488b38985a589968b"
+    },
+    "mods": [],
+    "ammoType": 16,
+    "numProjectiles": 20,
+    "projectileSpread": 12.0,
+    "projectileVelocity": 100.0,
+    "projectileVelocitySpread": 20.0,
+    "useCurve": true,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [
+            {
+                "serializedVersion": "3",
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 1.1266950368881226,
+                "outSlope": 1.1266950368881226,
+                "tangentMode": 0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+            },
+            {
+                "serializedVersion": "3",
+                "time": 1.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0,
+                "tangentMode": 0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+            }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 0
+    },
+    "category": "bullet"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213110
+            },
+            "amount": 5.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 1344546
+            },
+            "amount": 5.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 1,
+    "workbenchLevelRequired": 0,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 3.0,
+    "amountToCreate": 2,
+    "UnlockAchievment": ""
+}
+

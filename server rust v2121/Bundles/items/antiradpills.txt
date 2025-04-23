@@ -1,0 +1,121 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1432674913,
+    "shortname": "antiradpills",
+    "displayName": {
+        "token": "antiradpills",
+        "english": "Anti-Radiation Pills"
+    },
+    "displayDescription": {
+        "token": "antiradpills.desc",
+        "english": "Taking these pills will lower your radiation level. WARNING: May cause extreme dehydration."
+    },
+    "iconSprite": {
+        "instanceID": 122022
+    },
+    "category": 6,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 10,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "4fe7c391f3caa844e99c2d55ad9a38a3"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [],
+    "primaryConsumable": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "conditionFractionToLose": 0.0,
+    "effects": [
+        {
+            "type": 4,
+            "amount": -25.0,
+            "time": 5.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": -50.0,
+            "time": 5.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 1343288
+    },
+    "option": {
+        "name": {
+            "token": "take_pills",
+            "english": "Take Pills"
+        },
+        "description": {
+            "token": "take_pills_desc",
+            "english": "Consume these pills"
+        },
+        "icon": {
+            "instanceID": 157844
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+

@@ -1,0 +1,56 @@
+
+
+[2019-10-20 03:31:26] Loaded 0 apps from install folder "C:\Users\yatsu1\Desktop\Rust server v2121 com oxide By zZDubstepZz\Rust server v2121 com oxide By zZDubstepZz\steamapps\appmanifest_*.acf".
+[2019-10-20 03:31:32] Got 56 content servers from directory
+
+
+[2019-10-20 03:38:29] Loaded 0 apps from install folder "C:\Users\yatsu1\Desktop\Rust server v2121 com oxide By zZDubstepZz\Rust server v2121 com oxide By zZDubstepZz\steamapps\appmanifest_*.acf".
+[2019-10-20 03:38:35] Got 56 content servers from directory
+
+
+[2019-10-20 15:08:53] Loaded 0 apps from install folder "C:\Users\yatsu1\Desktop\Rust server v2121 com oxide By zZDubstepZz\Rust server v2121 com oxide By zZDubstepZz\steamapps\appmanifest_*.acf".
+[2019-10-20 15:08:58] Got 56 content servers from directory
+
+
+[2019-10-20 16:50:30] Loaded 0 apps from install folder "C:\Users\yatsu1\Desktop\Rust server v2121 com oxide By zZDubstepZz\Rust server v2121 com oxide By zZDubstepZz\steamapps\appmanifest_*.acf".
+[2019-10-20 16:50:34] Got 56 content servers from directory
+
+
+[2019-11-14 23:09:41] Loaded 0 apps from install folder "C:\Users\raydem\Desktop\server rust v2121\steamapps\appmanifest_*.acf".
+[2019-11-14 23:09:45] Got 54 content servers from directory
+[2019-11-15 01:10:31] Got 54 content servers from directory
+
+
+[2019-11-15 22:46:43] Loaded 0 apps from install folder "C:\Users\raydem\Desktop\server rust v2121\steamapps\appmanifest_*.acf".
+[2019-11-15 22:46:45] Got 54 content servers from directory
+
+
+[2019-11-16 04:22:58] Loaded 0 apps from install folder "C:\Users\raydem\Desktop\server rust v2121\steamapps\appmanifest_*.acf".
+[2019-11-16 04:23:01] Got 54 content servers from directory
+
+
+[2019-11-16 23:13:00] Loaded 0 apps from install folder "C:\Users\raydem\Desktop\server rust v2121\steamapps\appmanifest_*.acf".
+[2019-11-16 23:13:03] Got 54 content servers from directory
+[2019-11-17 10:10:44] Got 54 content servers from directory
+
+
+[2019-11-17 21:48:50] Loaded 0 apps from install folder "C:\Users\raydem\Desktop\server rust v2121\steamapps\appmanifest_*.acf".
+[2019-11-17 21:49:08] Got 54 content servers from directory
+[2019-11-19 22:25:40] Got 54 content servers from directory
+
+
+[2019-11-21 23:13:29] Loaded 0 apps from install folder "C:\Users\raydem\Desktop\server rust v2121\steamapps\appmanifest_*.acf".
+[2019-11-21 23:13:33] Got 54 content servers from directory
+[2019-11-25 23:42:32] Got 54 content servers from directory
+[2019-11-27 19:59:10] Got 54 content servers from directory
+
+
+[2019-12-02 22:10:40] Loaded 0 apps from install folder "C:\Users\raydem\Desktop\server rust v2121\steamapps\appmanifest_*.acf".
+[2019-12-02 22:10:46] Got 54 content servers from directory
+[2019-12-03 23:28:27] Got 54 content servers from directory
+
+
+[2019-12-09 21:48:22] Loaded 0 apps from install folder "C:\Users\raydem\Desktop\server rust v2121\steamapps\appmanifest_*.acf".
+[2019-12-09 21:48:32] Got 54 content servers from directory
+[2019-12-10 23:15:41] Got 54 content servers from directory
+[2019-12-12 18:22:01] Got 54 content servers from directory

@@ -1,0 +1,83 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 998894949,
+    "shortname": "seed.corn",
+    "displayName": {
+        "token": "seed.corn",
+        "english": "Corn Seed"
+    },
+    "displayDescription": {
+        "token": "seed.corn.desc",
+        "english": "Corn seeds can be found when picking wild Corn plants. These seeds can be planted in the ground and grown to collect additional food.\r\n\r\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth."
+    },
+    "iconSprite": {
+        "instanceID": 133722
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 50,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 82450
+    },
+    "inventoryGrabSound": {
+        "instanceID": 82450
+    },
+    "inventoryDropSound": {
+        "instanceID": 122756
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 24,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "a933f658469cf984cada04695d48f580"
+    },
+    "showCrosshair": true,
+    "UnlockAchievement": ""
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

@@ -1,0 +1,8 @@
+{
+  "NoWorkbenchFound": "No Workbench found. Make sure you are looking at a Workbench.",
+  "UpgradeComplete": "You have successfully upgraded your workbench.",
+  "Error: Level3": "You can't upgrade a Tier 3 Workbench.",
+  "Error: NotEnoughResources": "You do not have the required resources to upgrade this Workbech: \n",
+  "Error: NotEmpty": "You can only upgrade empty workbenches! Please empty the workbench.",
+  "Error: NoPermission": "You do not have permission to use this command."
+}

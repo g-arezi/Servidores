@@ -1,0 +1,227 @@
+{
+  "Gather Perms : The list of permissions that grant specified gather rates.": {
+    "ugather.admin": {
+      "Bonus": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Dispenser": {
+        "bone_fragments": 5.0,
+        "charcoal": 5.0,
+        "cloth": 5.0,
+        "fat.animal": 5.0,
+        "hq_metal_ore": 5.0,
+        "humanmeat_raw": 5.0,
+        "leather": 5.0,
+        "meat.bear.raw": 5.0,
+        "meat.horse.raw": 5.0,
+        "meat.pork.raw": 5.0,
+        "meat.wolf.raw": 5.0,
+        "metal_fragments": 5.0,
+        "metal_ore": 5.0,
+        "metal_refined": 5.0,
+        "skull_wolf": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Pickups": {
+        "cloth": 5.0,
+        "corn": 5.0,
+        "corn_seed": 5.0,
+        "hemp_seed": 5.0,
+        "metal_ore": 5.0,
+        "mushroom": 5.0,
+        "pumpkin": 5.0,
+        "pumpkin_seed": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Quarry": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0
+      },
+      "Survey": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0
+      }
+    },
+    "ugather.advanced": {
+      "Bonus": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Dispenser": {
+        "bone_fragments": 5.0,
+        "charcoal": 5.0,
+        "cloth": 5.0,
+        "fat.animal": 5.0,
+        "hq_metal_ore": 5.0,
+        "humanmeat_raw": 5.0,
+        "leather": 5.0,
+        "meat.bear.raw": 5.0,
+        "meat.horse.raw": 5.0,
+        "meat.pork.raw": 5.0,
+        "meat.wolf.raw": 5.0,
+        "metal_fragments": 5.0,
+        "metal_ore": 5.0,
+        "metal_refined": 5.0,
+        "skull_wolf": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Pickups": {
+        "cloth": 5.0,
+        "corn": 5.0,
+        "corn_seed": 5.0,
+        "hemp_seed": 5.0,
+        "metal_ore": 5.0,
+        "mushroom": 5.0,
+        "pumpkin": 5.0,
+        "pumpkin_seed": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Quarry": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0
+      },
+      "Survey": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0
+      }
+    },
+    "ugather.basic": {
+      "Bonus": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Dispenser": {
+        "bone_fragments": 5.0,
+        "cactusflesh": 1.0,
+        "charcoal": 5.0,
+        "chicken_raw": 1.0,
+        "cloth": 5.0,
+        "fat.animal": 5.0,
+        "hq_metal_ore": 5.0,
+        "humanmeat_raw": 5.0,
+        "leather": 5.0,
+        "meat.bear.raw": 5.0,
+        "meat.deer.raw": 1.0,
+        "meat.horse.raw": 5.0,
+        "meat.pork.raw": 5.0,
+        "meat.wolf.raw": 5.0,
+        "metal_fragments": 5.0,
+        "metal_ore": 5.0,
+        "metal_refined": 5.0,
+        "skull_human": 1.0,
+        "skull_wolf": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Pickups": {
+        "cloth": 5.0,
+        "corn": 5.0,
+        "corn_seed": 5.0,
+        "hemp_seed": 5.0,
+        "metal_ore": 5.0,
+        "mushroom": 5.0,
+        "pumpkin": 5.0,
+        "pumpkin_seed": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Quarry": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0
+      },
+      "Survey": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0
+      }
+    },
+    "ugather.donor": {
+      "Bonus": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Dispenser": {
+        "bone_fragments": 5.0,
+        "charcoal": 5.0,
+        "cloth": 5.0,
+        "fat.animal": 5.0,
+        "hq_metal_ore": 5.0,
+        "humanmeat_raw": 5.0,
+        "leather": 5.0,
+        "meat.bear.raw": 5.0,
+        "meat.horse.raw": 5.0,
+        "meat.pork.raw": 5.0,
+        "meat.wolf.raw": 5.0,
+        "metal_fragments": 5.0,
+        "metal_ore": 5.0,
+        "metal_refined": 5.0,
+        "skull_wolf": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Pickups": {
+        "cloth": 5.0,
+        "corn": 5.0,
+        "corn_seed": 5.0,
+        "hemp_seed": 5.0,
+        "metal_ore": 5.0,
+        "mushroom": 5.0,
+        "pumpkin": 5.0,
+        "pumpkin_seed": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0,
+        "wood": 5.0
+      },
+      "Quarry": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0
+      },
+      "Survey": {
+        "hq_metal_ore": 5.0,
+        "metal_ore": 5.0,
+        "stones": 5.0,
+        "sulfur_ore": 5.0
+      }
+    }
+  },
+  "Base Permission : The basic permission given to group default.": "ugather.basic",
+  "Default Group : The group all players should be in, these players get the base perm.": "default",
+  "Stackable Permissions : If a user has multiple perms, should they stack gather rate.": false
+}

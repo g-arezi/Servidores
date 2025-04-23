@@ -1,0 +1,118 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1023065463,
+    "shortname": "arrow.hv",
+    "displayName": {
+        "token": "arrow.hv",
+        "english": "High Velocity Arrow"
+    },
+    "displayDescription": {
+        "token": "arrow.hv.desc",
+        "english": "Lighter, faster arrow that deals less damage."
+    },
+    "iconSprite": {
+        "instanceID": 143758
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 64,
+    "quickDespawn": false,
+    "rarity": 1,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 50666
+    },
+    "inventoryGrabSound": {
+        "instanceID": 50666
+    },
+    "inventoryDropSound": {
+        "instanceID": 33494
+    },
+    "physImpactSoundDef": {
+        "instanceID": 99838
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "c5c32cf1bf8740c4cb4377efeec62f8b"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "3282b6da6d92419458d1f46e271ee9c3"
+    },
+    "mods": [],
+    "ammoType": 8,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 80.0,
+    "projectileVelocitySpread": 0.0,
+    "useCurve": false,
+    "spreadScalar": {
+        "serializedVersion": "2",
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+    },
+    "category": "arrow"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 213198
+            },
+            "amount": 40.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 213110
+            },
+            "amount": 15.0
+        }
+    ],
+    "defaultBlueprint": true,
+    "userCraftable": true,
+    "isResearchable": true,
+    "rarity": 2,
+    "workbenchLevelRequired": 1,
+    "scrapRequired": 0,
+    "scrapFromRecycle": 0,
+    "NeedsSteamItem": false,
+    "blueprintStackSize": -1,
+    "time": 3.0,
+    "amountToCreate": 2,
+    "UnlockAchievment": ""
+}
+

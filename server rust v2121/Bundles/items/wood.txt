@@ -1,0 +1,82 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -151838493,
+    "shortname": "wood",
+    "displayName": {
+        "token": "wood",
+        "english": "Wood"
+    },
+    "displayDescription": {
+        "token": "wood.desc",
+        "english": "Wood. Collected from trees and used in many crafting recipes. It's also needed to cook in camp-fires."
+    },
+    "iconSprite": {
+        "instanceID": 125576
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 1000,
+    "quickDespawn": false,
+    "rarity": 0,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 79304
+    },
+    "inventoryGrabSound": {
+        "instanceID": 79304
+    },
+    "inventoryDropSound": {
+        "instanceID": 56712
+    },
+    "physImpactSoundDef": {
+        "instanceID": 107626
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": "d2967537da8a7be429b10845d60ed301"
+    },
+    "Traits": 8,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModBurnable
+{
+    "fuelAmount": 10.0,
+    "byproductItem": {
+        "instanceID": 213224
+    },
+    "byproductAmount": 1,
+    "byproductChance": 0.25
+}
+
+ItemModXPWhenUsed
+{
+    "xpPerUnit": 1.0,
+    "unitSize": 1000
+}
+

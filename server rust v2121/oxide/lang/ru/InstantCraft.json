@@ -1,0 +1,6 @@
+{
+  "InvFull": "В вашем <color=yellow>инвентаре</color> <color=red>нет свободного места!</color>",
+  "NormalSpeed": "Данный предмет <color=red>убран</color> из мнгновенного крафта и будет создаваться с <color=yellow>обычной</color> скоростью.",
+  "Blocked": "Крафт данного предмета <color=red>запрещён</color>",
+  "NotEnoughtSlots": "<color=red>Недостаточно слотов</color> для крафта! Создано <color=green>{0}</color>/<color=green>{1}</color>"
+}

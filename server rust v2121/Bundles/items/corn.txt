@@ -1,0 +1,174 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1367190888,
+    "shortname": "corn",
+    "displayName": {
+        "token": "corn",
+        "english": "Corn"
+    },
+    "displayDescription": {
+        "token": "corn.desc",
+        "english": "An ear of corn. Eating it provides a small boost to health, hunger, and thirst."
+    },
+    "iconSprite": {
+        "instanceID": 170968
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "stackable": 20,
+    "quickDespawn": false,
+    "rarity": 2,
+    "spawnAsBlueprint": false,
+    "inventorySelectSound": {
+        "instanceID": 170992
+    },
+    "inventoryGrabSound": {
+        "instanceID": 170992
+    },
+    "inventoryDropSound": {
+        "instanceID": 102624
+    },
+    "physImpactSoundDef": {
+        "instanceID": 29748
+    },
+    "condition": {
+        "enabled": false,
+        "max": 100.0,
+        "repairable": false,
+        "maintainMaxCondition": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "hidden": false,
+    "flags": 0,
+    "steamItem": {
+        "instanceID": 0
+    },
+    "Parent": {
+        "instanceID": 0
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    },
+    "Traits": 24,
+    "panel": {
+        "instanceID": 0
+    }
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "conditionFractionToLose": 0.0,
+    "effects": [
+        {
+            "type": 0,
+            "amount": 75.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": 10.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 7,
+            "amount": 6.0,
+            "time": 30.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 212684
+    },
+    "option": {
+        "name": {
+            "token": "eat",
+            "english": "Eat"
+        },
+        "description": {
+            "token": "eat_desc",
+            "english": "Eat this item."
+        },
+        "icon": {
+            "instanceID": 68712
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": "56a163f22f7764c499a621708c47a3be"
+    },
+    "eatGesture": "eat_2hand",
+    "product": [
+        {
+            "itemDef": {
+                "instanceID": 212644
+            },
+            "amount": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "serializedVersion": "3",
+                        "time": -0.0388018824160099,
+                        "value": 1.0413553714752198,
+                        "inSlope": 0.5058351755142212,
+                        "outSlope": 0.5058351755142212,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.9326558709144592,
+                        "value": 1.2355117797851563,
+                        "inSlope": 0.6911470890045166,
+                        "outSlope": 0.6911470890045166,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 1.000236988067627,
+                        "value": 2.031528949737549,
+                        "inSlope": 16.760295867919923,
+                        "outSlope": 16.760295867919923,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+            }
+        }
+    ],
+    "primaryConsumable": {
+        "instanceID": 0
+    }
+}
+

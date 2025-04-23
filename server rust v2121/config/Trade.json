@@ -1,0 +1,11 @@
+{
+  "Settings": {
+    "box": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+    "cooldownMinutes": 0,
+    "maxRadius": 5000.0,
+    "pendingSeconds": 25.0,
+    "radiationMax": 1,
+    "slots": 30
+  },
+  "VERSION": "1.2.2"
+}

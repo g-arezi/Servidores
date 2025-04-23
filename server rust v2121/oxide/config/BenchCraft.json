@@ -1,0 +1,26 @@
+{
+  "config": {
+    "boost": 0.0,
+    "penalty": 0.0,
+    "baseRate": 1.0,
+    "proximity": 1.0,
+    "useRepairBench": true,
+    "useResearchTable": false,
+    "useItemList": false,
+    "useZLevels": true,
+    "instantBoost": false
+  },
+  "items": {},
+  "ui": {
+    "fadeIn": 0.2,
+    "fadeOut": 0.2,
+    "fontSize": 10,
+    "boostTextColor": "0 1 0.3 1",
+    "penaltyTextColor": "1 0 0 1",
+    "lockIconColor": "0.9 0 0 0.6",
+    "anchorMin": "0.9375 0.144",
+    "anchorMax": "0.9775 0.20",
+    "lockAnchorMin": "0.9425 0.144",
+    "lockAnchorMax": "0.9725 0.20"
+  }
+}

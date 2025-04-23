@@ -1,0 +1,7 @@
+{
+  "AlreadyMsg": "Vous avez déjà un hélicoptère CH47\nutilisez la commande '/noch47' pour le supprimer.",
+  "SpawnedMsg": "Votre hélicoptère est arrivé !\nutilisez la commande '/noch47' pour le supprimer.",
+  "KilledMsg": "Votre CH47 a disparu du monde.",
+  "NoPermMsg": "Vous n'êtes pas autorisé.",
+  "CooldownMsg": "Vous devez attendre avant de redemander un CH47"
+}

@@ -1,0 +1,22 @@
+{
+  "Settings": {
+    "CategoryDefaultStack": {
+      "Ammunition": 1000,
+      "Attire": 10,
+      "Common": 1000,
+      "Component": 1000,
+      "Construction": 100,
+      "Electrical": 100,
+      "Food": 100,
+      "Items": 100,
+      "Medical": 100,
+      "Misc": 100,
+      "Resources": 250000,
+      "Tools": 10,
+      "Traps": 25,
+      "Weapon": 1
+    },
+    "DefaultStack": 0,
+    "StackHealthItems": true
+  }
+}

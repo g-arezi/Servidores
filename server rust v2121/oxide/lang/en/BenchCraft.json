@@ -1,0 +1,11 @@
+{
+  "Prefix": "<color=orange>[ BenchCraft ]</color> ",
+  "RequiresBench": "Crafting {0} requires a workbench",
+  "WarnPenaltyTooHigh": "{0} penalty must be less than 1.00: penalty will be ignored",
+  "BoostText": "Boost\n{0:+0%;-0%}",
+  "PenaltyText": "Penalty\n{0:+0%;-0%}",
+  "BoostTextInstant": "Boost\n{0:+0;-0}",
+  "PenaltyTextInstant": "Penalty\n{0:+0;-0}",
+  "BoostTextInstantInf": "Boost\n∞",
+  "MissingItem": "Item does not exist in time map: {0}"
+}

@@ -1,0 +1,11 @@
+{
+  "Messages": {
+    "Chat tag color": "orange",
+    "Message color": "orange",
+    "Message name color": "red"
+  },
+  "Settings": {
+    "Chat tag": "<size=15><color=red>ForestRust</color> :</size>",
+    "Message name": "<color=#F90133>{DEV}<color=#3E63F3>Adoletah</color></color>"
+  }
+}
